@@ -48,16 +48,18 @@ const table = document.querySelector("tbody");
 function checkGuess(event){
     event.preventDefault();
     if(guessField.value == "") return;
-    let bool = false;
+    let checkableGuess = false;
     let index;
     for(let i = 0 ; i < characters.length ; i++){
         if(guessField.value.toLowerCase() == characters[i].nom.toLowerCase()){
-            bool = true;
-            index = i;
+            if([...table.rows].every(row => row.cells[0].textContent.toLowerCase() !== guessField.value.toLowerCase())){
+                checkableGuess = true;
+                index = i;
+            }
         }
     }
 
-    if(bool == true){
+    if(checkableGuess == true){
         if(characters[index] == characters[randomNumber]){
             winRound();
         } else{
@@ -154,6 +156,7 @@ async function addElements(tr, elements){
     }
 }
 
+// Création liste pour la zone de recherche
 const list = document.getElementById('list');
 guessField.addEventListener('input', () => {
     const search = guessField.value.toLowerCase();
@@ -177,6 +180,7 @@ guessField.addEventListener('input', () => {
     }
 })
 
+// Retirer la liste si on clique autre part
 document.addEventListener('click', (event) => {
     if(event.target !== guessField){
         list.style.display = 'none';
