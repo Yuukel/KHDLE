@@ -96,7 +96,7 @@ hr{
 }
 
 #guessField{
-    background: url(search.png) no-repeat 3px;
+    background: url(./data/img/search.png) no-repeat 3px;
     background-size: 20px;
     background-color: white;
     padding-left: 27px;
@@ -128,11 +128,18 @@ table thead tr th{
     height: 75px;
     border: 3px solid black;
     border-radius: 4px;
+    padding: 0;
 
     text-align: center;
     font-size: 0.8rem;
 
     animation: fadeIn 0.3s ease-in;
+}
+
+.cube img{
+    width: 100%;
+    position: relative;
+    top: 3px;
 }
 
 @keyframes fadeIn{
@@ -152,6 +159,14 @@ table thead tr th{
     background: linear-gradient(to right, rgb(220, 125, 0), rgb(220, 125, 30));
 }
 
+.empty{
+    background: linear-gradient(to right, rgb(40, 40, 40), rgb(50, 50, 50));
+}
+
+.character{
+    background: linear-gradient(to right, rgb(0, 119, 255), rgb(0, 84, 180));
+}
+
 #list {
     color: black;
     border: 1px solid #ccc;
@@ -161,11 +176,19 @@ table thead tr th{
     position: absolute;
     background-color: white;
     width: 200px;
+    border-radius: 0 0 5px 5px;
+    z-index: 5;
 }
 
 #list div{
     cursor: pointer;
     transition: background-color 0.2s ease;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #list div:hover{
@@ -182,4 +205,63 @@ table thead tr th{
 
 #end-text{
     animation: fadeIn 3s ease-in;
+}
+
+.summary{
+    display: none;
+}
+
+#showSummary {
+    --toggle-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 4em;
+    height: 2em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, rgb(0, 119, 255))) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, rgb(0, 119, 255) 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, rgb(0, 119, 255) 50%) no-repeat;
+    background-size: 205%;
+    background-position: 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 99em;
+    position: relative;
+    cursor: pointer;
+    font-size: var(--toggle-size);
+    margin-right: 15px;
+}
+  
+#showSummary::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #efefef), color-stop(50%, rgb(0, 84, 180))) no-repeat;
+    background: -o-linear-gradient(left, #efefef 50%, rgb(0, 84, 180) 50%) no-repeat;
+    background: linear-gradient(to right, #efefef 50%, rgb(0, 84, 180) 50%) no-repeat;
+    background-size: 205%;
+    background-position: 100%;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+  
+#showSummary:checked::before {
+    left: calc(100% - 1em - 0.5em);
+    background-position: 0;
+}
+  
+#showSummary:checked {
+    background-position: 100%;
+}
+
+.showSummary{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

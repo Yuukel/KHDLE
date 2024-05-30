@@ -1,0 +1,22 @@
+[
+    {
+        "nom": "nom",
+        "genre": ["Masculin", "Féminin", "Autre"],
+        "type": ["Humain", "Simili", "Sans-Coeur", "Autre"],
+        "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste"],
+        "arme" : ["Keyblade", "Nom de l'arme sinon", "Magie", "Lumière", "Ténèbres", "Autre", "Aucune"],
+        "mondeOrigine": "nom du monde",
+        "premiereApparition": "Nom du jeu",
+        "licence": "nom de la licence"
+    },
+    {
+        "nom": "",
+        "genre": "",
+        "type": [""],
+        "role": [""],
+        "arme" : [""],
+        "mondeOrigine": "",
+        "premiereApparition": "",
+        "licence": ""
+    }
+]

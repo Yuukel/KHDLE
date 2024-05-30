@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="logo.png">
+        <img src="./data/img/logo.png" alt="logo">
     </header>
     
     <hr>
@@ -51,13 +51,28 @@
         <button id="endButton"></button>
     </div>
 
+    <div class="showSummary">
+        <input type="checkbox" name="show" id="showSummary">
+        <label for="show">Afficher le résumé</label>
+    </div>
     <table>
         <thead>
+            <tr class="summary">
+                <td class="cube character">Résumé</td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+                <td class="cube empty"></td>
+            </tr>
             <tr>
                 <th>Nom</th>
                 <th>Genre</th>
                 <th>Type</th>
                 <th>Rôle</th>
+                <th>Arme</th>
                 <th>Monde d'origine</th>
                 <th>Première apparition</th>
                 <th>Licence</th>

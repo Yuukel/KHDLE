@@ -4,6 +4,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Jouable"],
+    "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Kingdom Hearts"
@@ -13,6 +14,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Jouable", "Allié", "Boss"],
+    "arme" : ["Keyblade", "Magie", "Ténèbres"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Kingdom Hearts"
@@ -21,7 +23,8 @@
     "nom": "Kairi",
     "genre": "Féminin",
     "type": ["Humain"],
-    "role": ["Jouable", "Allié"],
+    "role": ["Jouable", "Allié", "Princesse de Coeur"],
+    "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Kingdom Hearts"
@@ -31,6 +34,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -40,6 +44,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -49,6 +54,7 @@
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -58,6 +64,7 @@
     "genre": "Masculin",
     "type": ["Sans-Coeur"],
     "role": ["Antagoniste"],
+    "arme" : ["Ténèbres"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Kingdom Hearts"
@@ -67,6 +74,7 @@
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié", "Lien-D"],
+    "arme" : ["Keyblade", "Magie", "Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -76,6 +84,7 @@
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié"],
+    "arme" : ["Magie"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -85,6 +94,7 @@
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié"],
+    "arme" : ["Autre"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -94,6 +104,7 @@
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
+    "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -103,6 +114,7 @@
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Allié"],
+    "arme": ["Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -112,6 +124,7 @@
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["PNJ"],
+    "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -121,6 +134,7 @@
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
+    "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -130,6 +144,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié"],
+    "arme": ["Magie", "Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -139,6 +154,7 @@
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Allié"],
+    "arme": ["Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -148,6 +164,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -157,6 +174,7 @@
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Final Fantasy"
@@ -166,6 +184,7 @@
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
+    "arme": ["Magie"],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
@@ -175,8 +194,169 @@
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Boss"],
+    "arme": ["Ténèbres"],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
     "licence": "Disney"
-  }
+  },
+  {
+    "nom": "Riri/Fifi/Loulou",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Mog",
+    "genre": "Autre",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Simba",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["Allié","Invocation"],
+    "arme" : ["Autre"],
+    "mondeOrigine": "Terre des Lions",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },  
+  {
+    "nom": "Alice",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["Princesse de Coeur"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Pays des Merveilles",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Chat de Cheshire",
+    "genre": "Autre",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Pays des Merveilles",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Reine de Coeur",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Pays des Merveilles",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Lapin Blanc",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Pays des Merveilles",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Hercule",
+    "genre": "Masculin",
+    "type": ["Humain", "Autre"],
+    "role": ["Allié", "Boss"],
+    "arme": ["Autre"],
+    "mondeOrigine": "Colisée de l'Olympe",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Philoctète",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme": ["Aucune"],
+    "mondeOrigine": "Colisée de l'Olympe",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Cerbère",
+    "genre": "Autre",
+    "type": ["Autre"],
+    "role": ["Boss"],
+    "arme" : ["Ténèbres", "Autre"],
+    "mondeOrigine": "Colisée de l'Olympe",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+},
+{
+  "nom": "Hades",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Magie", "Autre"],
+  "mondeOrigine": "Colisée de l'Olympe",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Disney"
+},
+{
+  "nom": "Cloud",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Allié", "Boss", "Invocation"],
+  "arme" : ["Lumière", "Ténèbres", "Autre"],
+  "mondeOrigine": "Inconnu",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Final Fantasy"
+},
+{
+  "nom": "Sephiroth",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Ténèbres", "Autre"],
+  "mondeOrigine": "Inconnu",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Final Fantasy"
+},
+{
+  "nom": "",
+  "genre": "",
+  "type": [""],
+  "role": [""],
+  "arme" : [""],
+  "mondeOrigine": "",
+  "premiereApparition": "",
+  "licence": ""
+},
+{
+  "nom": "",
+  "genre": "",
+  "type": [""],
+  "role": [""],
+  "arme" : [""],
+  "mondeOrigine": "",
+  "premiereApparition": "",
+  "licence": ""
+},
+{
+  "nom": "",
+  "genre": "",
+  "type": [""],
+  "role": [""],
+  "arme" : [""],
+  "mondeOrigine": "",
+  "premiereApparition": "",
+  "licence": ""
+}
 ]
