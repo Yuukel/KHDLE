@@ -1,0 +1,182 @@
+[
+  {
+    "nom": "Sora",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["Jouable"],
+    "mondeOrigine": "Îles du Destin",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Riku",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["Jouable", "Allié", "Boss"],
+    "mondeOrigine": "Îles du Destin",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Kairi",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["Jouable", "Allié"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Tidus",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Îles du Destin",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Wakka",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Îles du Destin",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Selphie",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Îles du Destin",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Ansem (chercheur des ténèbres)",
+    "genre": "Masculin",
+    "type": ["Sans-Coeur"],
+    "role": ["Antagoniste"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Mickey Mouse",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["Jouable", "Allié", "Lien-D"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Donald",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["Jouable", "Allié"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Dingo",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["Jouable", "Allié"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Pluto",
+    "genre": "Autre",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Minnie",
+    "genre": "Féminin",
+    "type": ["Autre"],
+    "role": ["Allié"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Daisy",
+    "genre": "Féminin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Tic & Tac",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Château Disney",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Leon",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["Allié"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Youffie",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["Allié"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Cid",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Aerith",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Jardin Radieux",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Merlin",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "mondeOrigine": "Inconnu",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Maléfique",
+    "genre": "Féminin",
+    "type": ["Autre"],
+    "role": ["Boss"],
+    "mondeOrigine": "Domaine Enchanté",
+    "premiereApparition": "Kingdom Hearts",
+    "licence": "Disney"
+  }
+]

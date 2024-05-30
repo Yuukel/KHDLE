@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KHDLE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" />
+    </header>
+
+    <hr />
+
+    <div class="legend">
+      <div>
+        <div class="wrong"></div>
+        <p>INCORRECT</p>
+      </div>
+      <div>
+        <div class="almost"></div>
+        <p>PRESQUE</p>
+      </div>
+      <div>
+        <div class="correct"></div>
+        <p>CORRECT</p>
+      </div>
+    </div>
+
+    <div class="score">
+      <p class="current-score" id="current-score">Score actuel : 0</p>
+      <p class="current-highscore" id="current-highscore">
+        Meilleure score : 0
+      </p>
+    </div>
+
+    <div class="lives" id="lives"></div>
+
+    <div class="guess">
+      <form>
+        <input
+          type="text"
+          name="guess"
+          id="guessField"
+          placeholder="Entrer un personnage"
+        />
+        <div id="list"></div>
+        <input type="submit" id="guessButton" value="DEVINER !" />
+      </form>
+    </div>
+
+    <div class="end-infos" id="end-infos">
+      <h3 id="end-text"></h3>
+      <button id="endButton"></button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Genre</th>
+          <th>Type</th>
+          <th>Rôle</th>
+          <th>Monde d'origine</th>
+          <th>Première apparition</th>
+          <th>Licence</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Ajout des éléments dynamiquement -->
+      </tbody>
+    </table>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
