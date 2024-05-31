@@ -7,7 +7,7 @@
     "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2002",
+    "anneeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -18,7 +18,7 @@
     "arme" : ["Keyblade", "Magie", "Ténèbres"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2002",
+    "anneeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -29,7 +29,7 @@
     "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2002",
+    "anneeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -40,7 +40,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2001",
+    "anneeDeParution": "2001",
     "licence": "Final Fantasy"
   },
   {
@@ -51,7 +51,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2001",
+    "anneeDeParution": "2001",
     "licence": "Final Fantasy"
   },
   {
@@ -62,18 +62,18 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1999",
+    "anneeDeParution": "1999",
     "licence": "Final Fantasy"
   },
   {
     "nom": "Ansem le chercheur des ténèbres",
     "genre": "Masculin",
     "type": ["Sans-Coeur"],
-    "role": ["Antagoniste"],
+    "role": ["Antagoniste", "Boss"],
     "arme" : ["Ténèbres"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "2002",
+    "anneeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -84,7 +84,7 @@
     "arme" : ["Keyblade", "Magie", "Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1928",
+    "anneeDeParution": "1928",
     "licence": "Disney"
   },
   {
@@ -95,7 +95,7 @@
     "arme" : ["Magie"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1934",
+    "anneeDeParution": "1934",
     "licence": "Disney"
   },
   {
@@ -106,7 +106,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1932",
+    "anneeDeParution": "1932",
     "licence": "Disney"
   },
   {
@@ -117,7 +117,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1930",
+    "anneeDeParution": "1930",
     "licence": "Disney"
   },
   {
@@ -128,7 +128,7 @@
     "arme": ["Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1928",
+    "anneeDeParution": "1928",
     "licence": "Disney"
   },
   {
@@ -139,7 +139,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1940",
+    "anneeDeParution": "1940",
     "licence": "Disney"
   },
   {
@@ -150,7 +150,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1943",
+    "anneeDeParution": "1943",
     "licence": "Disney"
   },
   {
@@ -161,7 +161,7 @@
     "arme": ["Magie", "Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1999",
+    "anneeDeParution": "1999",
     "licence": "Final Fantasy"
   },
   {
@@ -172,7 +172,7 @@
     "arme": ["Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -183,7 +183,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -194,7 +194,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -205,7 +205,18 @@
     "arme": ["Magie"],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1964",
+    "anneeDeParution": "1964",
+    "licence": "Disney"
+  },
+  {
+    "nom": "La Bonne Fée",
+    "genre": "Féminin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Magie"],
+    "mondeOrigine": "Palais des Rêves",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1950",
     "licence": "Disney"
   },
   {
@@ -216,7 +227,7 @@
     "arme": ["Ténèbres"],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1959",
+    "anneeDeParution": "1959",
     "licence": "Disney"
   },
   {
@@ -227,7 +238,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1937",
+    "anneeDeParution": "1937",
     "licence": "Disney"
   },
   {
@@ -238,7 +249,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1990",
+    "anneeDeParution": "1990",
     "licence": "Final Fantasy"
   },
   {
@@ -249,9 +260,86 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Terre des Lions",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1994",
+    "anneeDeParution": "1994",
     "licence": "Disney"
-  },  
+  },
+  {
+    "nom": "Winnie",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Porcinet",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Tigrou",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Coco Lapin",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Bourriquet",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Maître Hibou",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Rêves Bleus",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
+  {
+    "nom": "Petit Gourou",
+    "genre": "Masculin",
+    "type": ["Autre"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Fôret des Nains",
+    "premiereApparition": "Kingdom Hearts",
+    "anneeDeParution": "1977",
+    "licence": "Disney"
+  },
   {
     "nom": "Alice",
     "genre": "Féminin",
@@ -260,7 +348,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1951",
+    "anneeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -271,18 +359,18 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1951",
+    "anneeDeParution": "1951",
     "licence": "Disney"
   },
   {
     "nom": "Reine de Coeur",
     "genre": "Féminin",
     "type": ["Humain"],
-    "role": ["PNJ"],
+    "role": ["Ennemi"],
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1951",
+    "anneeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -293,7 +381,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1951",
+    "anneeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -304,7 +392,7 @@
     "arme": ["Autre"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Disney"
   },
   {
@@ -315,7 +403,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Disney"
   },
   {
@@ -326,7 +414,7 @@
     "arme" : ["Ténèbres", "Autre"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
-    "annéeDeParution": "1997",
+    "anneeDeParution": "1997",
     "licence": "Disney"
 },
 {
@@ -337,7 +425,7 @@
   "arme" : ["Magie", "Autre"],
   "mondeOrigine": "Colisée de l'Olympe",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1997",
+  "anneeDeParution": "1997",
   "licence": "Disney"
 },
 {
@@ -348,7 +436,7 @@
   "arme" : ["Lumière", "Ténèbres", "Autre"],
   "mondeOrigine": "Inconnu",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1997",
+  "anneeDeParution": "1997",
   "licence": "Final Fantasy"
 },
 {
@@ -359,7 +447,7 @@
   "arme" : ["Ténèbres", "Autre"],
   "mondeOrigine": "Inconnu",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1997",
+  "anneeDeParution": "1997",
   "licence": "Final Fantasy"
 },
 {
@@ -370,7 +458,7 @@
   "arme" : ["Autre"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1999",
+  "anneeDeParution": "1999",
   "licence": "Disney"
 },
 {
@@ -381,7 +469,7 @@
   "arme" : ["Aucune"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1999",
+  "anneeDeParution": "1999",
   "licence": "Disney"
 },
 {
@@ -392,7 +480,348 @@
   "arme" : ["Ténèbres", "Autre"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
-  "annéeDeParution": "1999",
+  "anneeDeParution": "1999",
+  "licence": "Disney"
+},
+{
+  "nom": "Aladdin",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Allié"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Agrabah",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1992",
+  "licence": "Disney"
+},
+{
+  "nom": "Jasmine",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["Princesse de Coeur"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Agrabah",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1992",
+  "licence": "Disney"
+},
+{
+  "nom": "Jafar",
+  "genre": "Masculin",
+  "type": ["Humain", "Autre"],
+  "role": ["Boss"],
+  "arme" : ["Magie"],
+  "mondeOrigine": "Agrabah",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1992",
+  "licence": "Disney"
+},
+{
+  "nom": "Iago",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Ennemi"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Agrabah",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1992",
+  "licence": "Disney"
+},
+{
+  "nom": "Génie",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Invocation"],
+  "arme" : ["Magie"],
+  "mondeOrigine": "Agrabah",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1992",
+  "licence": "Disney"
+},
+{
+  "nom": "Monstro",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Paradis des Garnements",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1940",
+  "licence": "Disney"
+},
+{
+  "nom": "Pinocchio",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Paradis des Garnements",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1940",
+  "licence": "Disney"
+},
+{
+  "nom": "Geppetto",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Paradis des Garnements",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1940",
+  "licence": "Disney"
+},
+{
+  "nom": "Jiminy",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Paradis des Garnements",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1940",
+  "licence": "Disney"
+},
+{
+  "nom": "Ariel",
+  "genre": "Féminin",
+  "type": ["Autre"],
+  "role": ["Allié", "Invocation"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Atlantica",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1989",
+  "licence": "Disney"
+},
+{
+  "nom": "Polochon",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Atlantica",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1989",
+  "licence": "Disney"
+},
+{
+  "nom": "Sebastien",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Atlantica",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1989",
+  "licence": "Disney"
+},
+{
+  "nom": "Triton",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Atlantica",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1989",
+  "licence": "Disney"
+},
+{
+  "nom": "Ursula",
+  "genre": "Féminin",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Magie"],
+  "mondeOrigine": "Atlantica",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1989",
+  "licence": "Disney"
+},
+{
+  "nom": "Jack Skellington",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Allié"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Ville d'Halloween",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1993",
+  "licence": "Disney"
+},
+{
+  "nom": "Sally",
+  "genre": "Féminin",
+  "type": ["Autre"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Ville d'Halloween",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1993",
+  "licence": "Disney"
+},
+{
+  "nom": "Am Stram Gram",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Ennemi"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Ville d'Halloween",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1993",
+  "licence": "Disney"
+},
+{
+  "nom": "Oogie Boogie",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Ville d'Halloween",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1993",
+  "licence": "Disney"
+},
+{
+  "nom": "Peter Pan",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Allié", "Invocation"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Pays Imaginaire",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1953",
+  "licence": "Disney"
+},
+{
+  "nom": "Clochette",
+  "genre": "Féminin",
+  "type": ["Autre"],
+  "role": ["Invocation"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Pays Imaginaire",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1953",
+  "licence": "Disney"
+},
+{
+  "nom": "Wendy",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Pays Imaginaire",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1953",
+  "licence": "Disney"
+},
+{
+  "nom": "Capitaine Crochet",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Boss"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Pays Imaginaire",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1953",
+  "licence": "Disney"
+},
+{
+  "nom": "La Bête",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Allié", "Ennemi"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Château de la Bête",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1991",
+  "licence": "Disney"
+},
+{
+  "nom": "Belle",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["Princesse de Coeur"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Château de la Bête",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1991",
+  "licence": "Disney"
+},
+{
+  "nom": "Blanche Neige",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["Princesse de Coeur"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Fôret des Nains",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1937",
+  "licence": "Disney"
+},
+{
+  "nom": "Cendrillon",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["Princesse de Coeur", "Lien-D"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Palais des Rêves",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1950",
+  "licence": "Disney"
+},
+{
+  "nom": "Aurore",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["Princesse de Coeur"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Domaine Enchanté",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1959",
+  "licence": "Disney"
+},
+{
+  "nom": "Darkside",
+  "genre": "Autre",
+  "type": ["Sans-Coeur"],
+  "role": ["Boss"],
+  "arme" : ["Ténèbres"],
+  "mondeOrigine": "Royaume des Ténèbres",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "2002",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Bambi",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Invocation"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Inconnu",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1942",
+  "licence": "Disney"
+},
+{
+  "nom": "Dumbo",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Invocation"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Inconnu",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1941",
+  "licence": "Disney"
+},
+{
+  "nom": "Mushu",
+  "genre": "Masculin",
+  "type": ["Autre"],
+  "role": ["Invocation"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Terre des Dragons",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1998",
   "licence": "Disney"
 }
 ]

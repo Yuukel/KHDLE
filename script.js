@@ -184,25 +184,44 @@ function checkGuess(event){
 
         // Année de partution
         anneeDeParution.classList.add("cube");
-        if(characters[index].annéeDeParution < characters[randomNumber].annéeDeParution){
-            anneeDeParution.classList.add("wrong");
-            anneeDeParution.classList.add("fa-solid", "fa-arrow-up");
+        var arrow;
+        var yearText;
+        if(characters[index].anneeDeParution < characters[randomNumber].anneeDeParution){
+            anneeDeParution.classList.add("arrow");
+
+            arrow = document.createElement("i");
+            arrow.classList.add("fa-solid","fa-arrow-up");
+            anneeDeParution.appendChild(arrow);
+
+            yearText = document.createElement("p");
+            yearText.textContent = characters[index].anneeDeParution;
+            anneeDeParution.appendChild(yearText);
         }
-        else if(characters[index].annéeDeParution > characters[randomNumber].annéeDeParution){
-            anneeDeParution.classList.add("wrong");
-            anneeDeParution.classList.add("fa-solid", "fa-arrow-down");
+        else if(characters[index].anneeDeParution > characters[randomNumber].anneeDeParution){
+            anneeDeParution.classList.add("arrow");
+
+            arrow = document.createElement("i");
+            arrow.classList.add("fa-solid","fa-arrow-down");
+            anneeDeParution.appendChild(arrow);
+            
+            yearText = document.createElement("p");
+            yearText.textContent = characters[index].anneeDeParution;
+            anneeDeParution.appendChild(yearText);
         }
         else{
             anneeDeParution.classList.add("correct");
-            anneeDeParution.textContent = characters[index].annéeDeParution;
+            anneeDeParution.textContent = characters[index].anneeDeParution;
+            summary.cells[7].textContent = characters[index].anneeDeParution;
+            summary.cells[7].classList.remove("empty");
+            summary.cells[7].classList.add("correct");
         } 
 
         licence.classList.add("cube");
         if(characters[index].licence == characters[randomNumber].licence){
             licence.classList.add("correct");
-            summary.cells[7].textContent = characters[index].licence;
-            summary.cells[7].classList.remove("empty");
-            summary.cells[7].classList.add("correct");
+            summary.cells[8].textContent = characters[index].licence;
+            summary.cells[8].classList.remove("empty");
+            summary.cells[8].classList.add("correct");
         } else licence.classList.add("wrong");
         licence.textContent = characters[index].licence;
         
@@ -295,7 +314,7 @@ function nextRound(){
     randomNumber = Math.floor(Math.random()*characters.length);
     table.innerHTML = "";
 
-    for(let i = 0 ; i < 8 ; i++){
+    for(let i = 1 ; i < 9 ; i++){
         summary.cells[i].textContent = "";
         summary.cells[i].classList.remove("correct");
         summary.cells[i].classList.add("empty");
