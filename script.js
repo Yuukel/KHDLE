@@ -38,7 +38,7 @@ let randomNumber;
 function startGame(){
     setLives();
     randomNumber = Math.floor(Math.random()*characters.length);
-    // while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
+    while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
     console.log(characters[randomNumber]);
 }
 

@@ -60,7 +60,7 @@
     "licence": "Final Fantasy"
   },
   {
-    "nom": "Ansem (chercheur des ténèbres)",
+    "nom": "Ansem le chercheur des ténèbres",
     "genre": "Masculin",
     "type": ["Sans-Coeur"],
     "role": ["Antagoniste"],
@@ -193,7 +193,7 @@
     "nom": "Maléfique",
     "genre": "Féminin",
     "type": ["Autre"],
-    "role": ["Boss"],
+    "role": ["Boss", "Antagoniste"],
     "arme": ["Ténèbres"],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
@@ -330,33 +330,33 @@
   "licence": "Final Fantasy"
 },
 {
-  "nom": "",
-  "genre": "",
-  "type": [""],
-  "role": [""],
-  "arme" : [""],
-  "mondeOrigine": "",
-  "premiereApparition": "",
-  "licence": ""
+  "nom": "Tarzan",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Allié"],
+  "arme" : ["Autre"],
+  "mondeOrigine": "Jungle Profonde",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Disney"
 },
 {
-  "nom": "",
-  "genre": "",
-  "type": [""],
-  "role": [""],
-  "arme" : [""],
-  "mondeOrigine": "",
-  "premiereApparition": "",
-  "licence": ""
+  "nom": "Jane",
+  "genre": "Féminin",
+  "type": ["Humain"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Jungle Profonde",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Disney"
 },
 {
-  "nom": "",
-  "genre": "",
-  "type": [""],
-  "role": [""],
-  "arme" : [""],
-  "mondeOrigine": "",
-  "premiereApparition": "",
-  "licence": ""
+  "nom": "Clayton",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["Boss"],
+  "arme" : ["Ténèbres", "Autre"],
+  "mondeOrigine": "Jungle Profonde",
+  "premiereApparition": "Kingdom Hearts",
+  "licence": "Disney"
 }
 ]
