@@ -7,6 +7,7 @@
     "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -17,6 +18,7 @@
     "arme" : ["Keyblade", "Magie", "Ténèbres"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -27,6 +29,7 @@
     "arme" : ["Keyblade", "Magie"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -37,6 +40,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2001",
     "licence": "Final Fantasy"
   },
   {
@@ -47,6 +51,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2001",
     "licence": "Final Fantasy"
   },
   {
@@ -57,6 +62,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1999",
     "licence": "Final Fantasy"
   },
   {
@@ -67,6 +73,7 @@
     "arme" : ["Ténèbres"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "2002",
     "licence": "Kingdom Hearts"
   },
   {
@@ -77,6 +84,7 @@
     "arme" : ["Keyblade", "Magie", "Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1928",
     "licence": "Disney"
   },
   {
@@ -87,6 +95,7 @@
     "arme" : ["Magie"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1934",
     "licence": "Disney"
   },
   {
@@ -97,6 +106,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1932",
     "licence": "Disney"
   },
   {
@@ -107,6 +117,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1930",
     "licence": "Disney"
   },
   {
@@ -117,6 +128,7 @@
     "arme": ["Lumière"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1928",
     "licence": "Disney"
   },
   {
@@ -127,6 +139,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1940",
     "licence": "Disney"
   },
   {
@@ -137,6 +150,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1943",
     "licence": "Disney"
   },
   {
@@ -147,6 +161,7 @@
     "arme": ["Magie", "Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1999",
     "licence": "Final Fantasy"
   },
   {
@@ -157,6 +172,7 @@
     "arme": ["Autre"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -167,6 +183,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -177,6 +194,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Final Fantasy"
   },
   {
@@ -187,6 +205,7 @@
     "arme": ["Magie"],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1964",
     "licence": "Disney"
   },
   {
@@ -197,6 +216,7 @@
     "arme": ["Ténèbres"],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1959",
     "licence": "Disney"
   },
   {
@@ -207,6 +227,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1937",
     "licence": "Disney"
   },
   {
@@ -217,6 +238,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1990",
     "licence": "Final Fantasy"
   },
   {
@@ -227,6 +249,7 @@
     "arme" : ["Autre"],
     "mondeOrigine": "Terre des Lions",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1994",
     "licence": "Disney"
   },  
   {
@@ -237,6 +260,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -247,6 +271,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -257,6 +282,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -267,6 +293,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1951",
     "licence": "Disney"
   },
   {
@@ -277,6 +304,7 @@
     "arme": ["Autre"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Disney"
   },
   {
@@ -287,6 +315,7 @@
     "arme": ["Aucune"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Disney"
   },
   {
@@ -297,6 +326,7 @@
     "arme" : ["Ténèbres", "Autre"],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
+    "annéeDeParution": "1997",
     "licence": "Disney"
 },
 {
@@ -307,6 +337,7 @@
   "arme" : ["Magie", "Autre"],
   "mondeOrigine": "Colisée de l'Olympe",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1997",
   "licence": "Disney"
 },
 {
@@ -317,6 +348,7 @@
   "arme" : ["Lumière", "Ténèbres", "Autre"],
   "mondeOrigine": "Inconnu",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1997",
   "licence": "Final Fantasy"
 },
 {
@@ -327,6 +359,7 @@
   "arme" : ["Ténèbres", "Autre"],
   "mondeOrigine": "Inconnu",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1997",
   "licence": "Final Fantasy"
 },
 {
@@ -337,6 +370,7 @@
   "arme" : ["Autre"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1999",
   "licence": "Disney"
 },
 {
@@ -347,6 +381,7 @@
   "arme" : ["Aucune"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1999",
   "licence": "Disney"
 },
 {
@@ -357,6 +392,7 @@
   "arme" : ["Ténèbres", "Autre"],
   "mondeOrigine": "Jungle Profonde",
   "premiereApparition": "Kingdom Hearts",
+  "annéeDeParution": "1999",
   "licence": "Disney"
 }
 ]

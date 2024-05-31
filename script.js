@@ -74,6 +74,7 @@ function checkGuess(event){
         let arme = document.createElement("td");
         let mondeOrigine = document.createElement("td");
         let premiereApparition = document.createElement("td");
+        let anneeDeParution = document.createElement("td");
         let licence = document.createElement("td");
         
         nom.classList.add("cube","character");
@@ -181,6 +182,21 @@ function checkGuess(event){
         } else premiereApparition.classList.add("wrong");
         premiereApparition.textContent = characters[index].premiereApparition;
 
+        // Année de partution
+        anneeDeParution.classList.add("cube");
+        if(characters[index].annéeDeParution < characters[randomNumber].annéeDeParution){
+            anneeDeParution.classList.add("wrong");
+            anneeDeParution.classList.add("fa-solid", "fa-arrow-up");
+        }
+        else if(characters[index].annéeDeParution > characters[randomNumber].annéeDeParution){
+            anneeDeParution.classList.add("wrong");
+            anneeDeParution.classList.add("fa-solid", "fa-arrow-down");
+        }
+        else{
+            anneeDeParution.classList.add("correct");
+            anneeDeParution.textContent = characters[index].annéeDeParution;
+        } 
+
         licence.classList.add("cube");
         if(characters[index].licence == characters[randomNumber].licence){
             licence.classList.add("correct");
@@ -190,7 +206,7 @@ function checkGuess(event){
         } else licence.classList.add("wrong");
         licence.textContent = characters[index].licence;
         
-        var elements = [nom, genre, type, role, arme, mondeOrigine, premiereApparition, licence];
+        var elements = [nom, genre, type, role, arme, mondeOrigine, premiereApparition, anneeDeParution, licence];
 
         table.insertBefore(tr, table.firstChild);
         addElements(tr, elements);
