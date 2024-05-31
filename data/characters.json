@@ -257,7 +257,7 @@
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Allié","Invocation"],
-    "arme" : ["Autre"],
+    "arme" : ["Aucune"],
     "mondeOrigine": "Terre des Lions",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1994",
@@ -423,6 +423,17 @@
   "type": ["Autre"],
   "role": ["Boss"],
   "arme" : ["Magie", "Autre"],
+  "mondeOrigine": "Colisée de l'Olympe",
+  "premiereApparition": "Kingdom Hearts",
+  "anneeDeParution": "1997",
+  "licence": "Disney"
+},
+{
+  "nom": "Titan de Glace",
+  "genre": "Autre",
+  "type": ["Autre"],
+  "role": ["Boss"],
+  "arme" : ["Aucune"],
   "mondeOrigine": "Colisée de l'Olympe",
   "premiereApparition": "Kingdom Hearts",
   "anneeDeParution": "1997",
@@ -823,5 +834,93 @@
   "premiereApparition": "Kingdom Hearts",
   "anneeDeParution": "1998",
   "licence": "Disney"
+},
+{
+  "nom": "Naminé",
+  "genre": "Féminin",
+  "type": ["Simili"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Manoir Oblivion",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Ansem le Sage",
+  "genre": "Masculin",
+  "type": ["Humain"],
+  "role": ["PNJ"],
+  "arme" : ["Aucune"],
+  "mondeOrigine": "Jardin Radieux",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Marluxia",
+  "genre": "Masculin",
+  "type": ["Humain","Simili"],
+  "role": ["Antagoniste", "Organisation13", "Leader"],
+  "arme" : ["Keyblade","Ténèbres", "Autre"],
+  "mondeOrigine": "Cité de l'Aube",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Larxene",
+  "genre": "Féminin",
+  "type": ["Humain", "Simili"],
+  "role": ["Boss", "Organisation13"],
+  "arme" : ["Keyblade", "Ténèbres", "Magie", "Autre"],
+  "mondeOrigine": "Cité de l'Aube",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Axel",
+  "genre": "Masculin",
+  "type": ["Humain", "Simili"],
+  "role": ["Boss", "Organisation13", "Allié"],
+  "arme" : ["Keyblade", "Ténèbres", "Magie", "Autre"],
+  "mondeOrigine": "Jardin Radieux",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Vexen",
+  "genre": "Masculin",
+  "type": ["Humain", "Simili"],
+  "role": ["Boss", "Organisation13"],
+  "arme" : ["Ténèbres", "Magie", "Autre"],
+  "mondeOrigine": "Jardin Radieux",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Zexion",
+  "genre": "Masculin",
+  "type": ["Humain", "Simili"],
+  "role": ["Boss", "Organisation13"],
+  "arme" : ["Ténèbres", "Autre"],
+  "mondeOrigine": "Jardin Radieux",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
+},
+{
+  "nom": "Lexaeus",
+  "genre": "Masculin",
+  "type": ["Boss", "Simili"],
+  "role": ["Boss", "Organisation13"],
+  "arme" : ["Ténèbres", "Autre"],
+  "mondeOrigine": "Jardin Radieux",
+  "premiereApparition": "Kingdom Hearts Chain of Memories",
+  "anneeDeParution": "2004",
+  "licence": "Kingdom Hearts"
 }
 ]
