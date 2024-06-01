@@ -8,8 +8,13 @@ dialog[open]{
     display: flex;
     flex-direction: column;
 
+    /* box-sizing: content-box; */
+    padding: 10px 20px 30px 30px;
+
     animation: fadeIn 0.3s forwards;
     --backdrop-animation: semiFadeIn 0.3s forwards;
+
+    scrollbar-gutter: stable;
 }
 
 @keyframes fadeOut{
@@ -37,15 +42,59 @@ dialog .modal-header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-dialog #closePopup{
-    width: 75px;
+dialog .closePopup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    padding: 5px 10px;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    background-color: rgb(244, 244, 244);
+
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
-.highlight {
+dialog .closePopup:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+dialog h1, dialog h2, dialog h3, dialog h4{
+    color: #333;
+}
+
+dialog h2{
+    margin-bottom: 0;
+}
+
+dialog i{
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+dialog p {
+    margin: 10px 0;
+}
+dialog ul {
+    list-style: disc inside;
+}
+
+dialog hr{
+    color: #333;
+    width: 98%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+dialog .highlight {
     background-color: #f4f4f4;
     padding: 10px;
+    margin-top: 20px;
     border-left: 5px solid #333;
+    border-radius: 5px;
 }

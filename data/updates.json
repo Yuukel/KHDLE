@@ -1,6 +1,7 @@
 [
     {
         "version": 0.1,
+        "date": "13/07/2020",
         "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
         "newFeatures": [
             ["numéro un", "numéro 2", "numéro 3"],
@@ -10,6 +11,7 @@
     },
     {
         "version": 0.2,
+        "date": "13/07/2020",
         "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
         "newFeatures": [
             ["numéro un", "numéro 2", "numéro 3"],
@@ -24,6 +26,7 @@
     },
     {
         "version": 0.3,
+        "date": "13/07/2020",
         "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
         "newFeatures": [],
         "changedFeatures": [

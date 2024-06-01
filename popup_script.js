@@ -11,6 +11,51 @@ var closeRulesPopupBtn = document.getElementById('closeRulesPopup');
 var closeInfosPopupBtn = document.getElementById('closeInfosPopup');
 var closeUpdatesPopupBtn = document.getElementById('closeUpdatesPopup');
 
+rulesPopup.addEventListener('click', function(event){
+    var rect = rulesPopup.getBoundingClientRect();
+    var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+    if (!isInDialog) {
+        rulesPopup.style.animation = "fadeOut 0.3s forwards";
+        rulesPopup.style.setProperty('--backdrop-animation', "semiFadeOut 0.3s forwards");
+        rulesPopup.addEventListener('animationend', () => {
+            rulesPopup.close();
+            rulesPopup.style.animation = "fadeIn 0.3s forwards";
+            rulesPopup.style.setProperty('--backdrop-animation', "semiFadeIn 0.3s forwards");
+        }, {once: true });
+    }
+});
+
+infosPopup.addEventListener('click', function(event){
+    var rect = infosPopup.getBoundingClientRect();
+    var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+    if (!isInDialog) {
+        infosPopup.style.animation = "fadeOut 0.3s forwards";
+        infosPopup.style.setProperty('--backdrop-animation', "semiFadeOut 0.3s forwards");
+        infosPopup.addEventListener('animationend', () => {
+            infosPopup.close();
+            infosPopup.style.animation = "fadeIn 0.3s forwards";
+            infosPopup.style.setProperty('--backdrop-animation', "semiFadeIn 0.3s forwards");
+        }, {once: true });
+    }
+});
+
+updatesPopup.addEventListener('click', function(event){
+    var rect = updatesPopup.getBoundingClientRect();
+    var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+    if (!isInDialog) {
+        updatesPopup.style.animation = "fadeOut 0.3s forwards";
+        updatesPopup.style.setProperty('--backdrop-animation', "semiFadeOut 0.3s forwards");
+        updatesPopup.addEventListener('animationend', () => {
+            updatesPopup.close();
+            updatesPopup.style.animation = "fadeIn 0.3s forwards";
+            updatesPopup.style.setProperty('--backdrop-animation', "semiFadeIn 0.3s forwards");
+        }, {once: true });
+    }
+});
+
 rulesBtn.addEventListener('click', () => {
     rulesPopup.showModal();
 });
@@ -20,7 +65,6 @@ infosBtn.addEventListener('click', () => {
 });
 
 import updates from './data/updates.json' with { type : 'json' };
-// Problèmes quand on ouvre et ferme la fenêtre => ajouter une classe au div et les supprimer quand on ferme
 updatesBtn.addEventListener('click', () => {
     for(let v = updates.length-1 ; v > -1 ; v--){
         var patch = document.createElement("div");
@@ -28,6 +72,10 @@ updatesBtn.addEventListener('click', () => {
         var version = document.createElement("h2")
         version.textContent = "Version " + updates[v].version;
         patch.appendChild(version);
+        
+        var date = document.createElement("i");
+        date.textContent = "Publiée le " + updates[v].date;
+        patch.appendChild(date);
 
         if(v == updates.length-1){
             var highlightedMessage = document.createElement("p");
@@ -106,4 +154,13 @@ closeUpdatesPopupBtn.addEventListener('click', () => {
         updatesPopup.style.animation = "fadeIn 0.3s forwards";
         updatesPopup.style.setProperty('--backdrop-animation', "semiFadeIn 0.3s forwards");
     }, {once: true });
+
+    var divs = updatesPopup.children;
+    for(let i = 1 ; i < divs.length ; i++){
+        updatesPopup.removeChild(divs[i]);
+    }
+
+    var hrs = updatesPopup.querySelectorAll("hr");
+    updatesPopup.removeChild(hrs[0]);
+    updatesPopup.removeChild(hrs[1]);
 });

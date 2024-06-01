@@ -105,6 +105,9 @@ function checkGuess(event){
         name.addEventListener('mouseover', () => {
             name.style.display = 'flex';
         });
+        name.addEventListener('mouseout', () => {
+            name.style.display = 'none';
+        });
 
         nom.appendChild(img);
         nom.appendChild(name);
@@ -360,7 +363,6 @@ function gameOver(){
 }
 
 function nextRound(){
-    // Faire la fonction pour démarrer le round d'après
     guessField.disabled = false;
     guessBtn.disabled = false;
     document.querySelector('.end-infos').style.display = 'none';
@@ -377,9 +379,10 @@ function nextRound(){
 }
 
 function newGame(){
-    // Faire la fonction pour redémarrer le jeu
     nextRound();
     currentScore = 0;
+    minYear = 1928;
+    maxYear = 2004;
     document.getElementById('current-score').textContent = "Score actuel : " + currentScore;
 
     game.style.display = "none";
