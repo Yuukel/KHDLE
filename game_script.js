@@ -5,6 +5,9 @@ function disableEnterKey(event) {
 }
 document.addEventListener('keydown', disableEnterKey);
 
+var game = document.querySelector('.game');
+var start = document.querySelector('.start-game');
+
 import characters from './data/characters.json' with { type : 'json' };
 
 let bestScore = localStorage.getItem('bestScore') || 0;
@@ -36,11 +39,17 @@ function setLives(){
 let currentScore = 0;
 let randomNumber;
 function startGame(){
+    game.style.display = "flex";
+    start.style.display = "none";
+
     setLives();
     randomNumber = Math.floor(Math.random()*characters.length);
     while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
-    console.log(characters[randomNumber]);
+    // console.log(characters[randomNumber]);
 }
+
+let minYear = 1928;
+let maxYear = 2004;
 
 const guessBtn = document.getElementById("guessButton");
 const guessField = document.getElementById("guessField");
@@ -81,7 +90,24 @@ function checkGuess(event){
         var img = document.createElement("img");
         img.src = './data/img/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
         img.alt = characters[index].nom;
+
+        var name = document.createElement('div');
+        name.textContent = characters[index].nom;
+        name.classList.add('char-name');
+
+        img.addEventListener('mouseover', () => {
+            name.style.display = 'flex';
+        });
+        img.addEventListener('mouseout', () => {
+            name.style.display = 'none';
+        });
+
+        name.addEventListener('mouseover', () => {
+            name.style.display = 'flex';
+        });
+
         nom.appendChild(img);
+        nom.appendChild(name);
         nom.id = characters[index].nom;
 
         genre.classList.add("cube");
@@ -196,6 +222,10 @@ function checkGuess(event){
             yearText = document.createElement("p");
             yearText.textContent = characters[index].anneeDeParution;
             anneeDeParution.appendChild(yearText);
+
+            if(characters[index].anneeDeParution > minYear)
+                minYear = characters[index].anneeDeParution;
+            summary.cells[7].textContent = minYear + '-' + maxYear;
         }
         else if(characters[index].anneeDeParution > characters[randomNumber].anneeDeParution){
             anneeDeParution.classList.add("arrow");
@@ -207,6 +237,10 @@ function checkGuess(event){
             yearText = document.createElement("p");
             yearText.textContent = characters[index].anneeDeParution;
             anneeDeParution.appendChild(yearText);
+
+            if(characters[index].anneeDeParution < maxYear)
+                maxYear = characters[index].anneeDeParution;
+            summary.cells[7].textContent = minYear + '-' + maxYear;
         }
         else{
             anneeDeParution.classList.add("correct");
@@ -250,14 +284,35 @@ guessField.addEventListener('input', () => {
     const search = guessField.value.toLowerCase();
     list.innerHTML = "";
     if(search){
-        const charList = characters.filter(character => character.nom.toLowerCase().startsWith(search));
+        let charList = characters.filter(character => character.nom.toLowerCase().startsWith(search));
         let addList = false;
+
+        // Tri par ordre alphabétique (tri à bulle)
+        for (let i = 0; i < charList.length; i++) {
+            for (let j = 0; j < charList.length - 1 - i; j++) {
+                const value1 = Object.
+                    values(charList[j])[0];
+                const value2 = Object.
+                    values(charList[j + 1])[0];
+                if (value1 > value2) {
+                    const temp = charList[j];
+                    charList[j] = charList[j + 1];
+                    charList[j + 1] = temp;
+                }
+            }
+        }
+
         charList.forEach(character => {
             addList = [...table.rows].every(row => row.cells[0].id.toLowerCase() !== character.nom.toLowerCase());
             if(addList){
                 const charItem = document.createElement('div');
                 charItem.classList.add('char-item');
-                charItem.textContent = character.nom;
+                const p = document.createElement('p');
+                p.textContent = character.nom;
+                const img = document.createElement('img');
+                img.src = './data/img/' + character.nom.toLowerCase().split(" ").join("") + '.png';
+                charItem.appendChild(img);
+                charItem.appendChild(p);
                 charItem.addEventListener('click', () => {
                     guessField.value = character.nom;
                     list.innerHTML = "";
@@ -326,6 +381,9 @@ function newGame(){
     nextRound();
     currentScore = 0;
     document.getElementById('current-score').textContent = "Score actuel : " + currentScore;
+
+    game.style.display = "none";
+    start.style.display = "flex";
 }
 
 guessBtn.addEventListener('click', checkGuess);
@@ -338,4 +396,20 @@ document.getElementById('showSummary').addEventListener('change', () => {
     }
 });
 
-startGame();
+var startGameBtn = document.getElementById('start-game-btn');
+startGameBtn.addEventListener('click', startGame);
+
+var customizeGameBtn = document.getElementById('customize-game-btn');
+var customizeGame = document.querySelector(".customize-content");
+
+function showContent(){
+    customizeGame.style.display = "flex";
+    customizeGameBtn.addEventListener('click', hideContent, { once: true });
+}
+
+function hideContent(){
+    customizeGame.style.display = "none";
+    customizeGameBtn.addEventListener('click', showContent, { once: true });
+}
+
+customizeGameBtn.addEventListener('click', showContent, { once: true });

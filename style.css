@@ -7,6 +7,7 @@ html, body{
 
 *{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
     flex-direction: column;
     align-items: center;
 
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     color: rgb(200, 200, 200);
     background-image: url("https://i.redd.it/fej94dm1q2361.jpg");
     background-size: contain;
@@ -25,9 +26,43 @@ body{
 
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+header, header nav, header ul{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li button{
+    height: 35px;
+    width: 100px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+header nav ul li button:hover, .start-game #start-game-btn:hover, .start-game #customize-game-btn:hover{
+    background-color: rgb(150, 150, 150);
 }
 
 hr{
@@ -37,6 +72,70 @@ hr{
     margin-bottom: 20px;
 }
 
+.game{
+    width: 100%;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-game #start-game-btn{
+    height: 70px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.start-game #customize-game-btn{
+    height: 35px;
+
+    border: none;
+    border-radius: 3px;
+
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.customize-content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    animation: fadeIn 0.5s forwards;
+}
+
+.customize-content p{
+    text-align: center;
+}
+
+.start-game, .legend{
+    width: 25%;
+    background-color: black;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: 10px;
+}
+
 .legend, .legend div{
     display: flex;
     flex-direction: row;
@@ -44,14 +143,6 @@ hr{
     justify-content: space-evenly;
     flex-wrap: wrap;
     min-width: fit-content;
-}
-
-.legend{
-    width: 25%;
-    background-color: black;
-    border: 2px solid rgb(200, 200, 200);
-    border-radius: 5px;
-    padding: 10px;
 }
 
 .legend .wrong, .legend .correct, .legend .almost{
@@ -183,6 +274,19 @@ table thead tr th{
     margin-left: -100%;
 }
 
+.char-name{
+    display: none;
+    background-color: white;
+    position: absolute;
+    /* bottom: 40%; */
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
 .almost{
     background: linear-gradient(to right, rgb(220, 125, 0), rgb(220, 125, 30));
 }
@@ -193,6 +297,7 @@ table thead tr th{
 
 .character{
     background: linear-gradient(to right, rgb(0, 119, 255), rgb(0, 84, 180));
+    position: relative;
 }
 
 #list {
@@ -213,14 +318,24 @@ table thead tr th{
     transition: background-color 0.2s ease;
     font-weight: bold;
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 #list div:hover{
     background-color: rgb(200,200,200);
+}
+
+.char-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.char-item img{
+    height: 50px;
+    width: auto;
 }
 
 .end-infos{

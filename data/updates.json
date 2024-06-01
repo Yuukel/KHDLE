@@ -1,0 +1,36 @@
+[
+    {
+        "version": 0.1,
+        "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
+        "newFeatures": [
+            ["numéro un", "numéro 2", "numéro 3"],
+            ["je sais pas", "je sais pas non plus", "hi hi hi ha"]
+        ],
+        "changedFeatures": []
+    },
+    {
+        "version": 0.2,
+        "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
+        "newFeatures": [
+            ["numéro un", "numéro 2", "numéro 3"],
+            ["je sais pas", "je sais pas non plus", "hi hi hi ha"]
+        ],
+        "changedFeatures": [
+            "numéro 1",
+            "numéro 2",
+            "numéro 3",
+            "numéro 4"
+        ]
+    },
+    {
+        "version": 0.3,
+        "highlightedMessage": "Nous sommes ravis de vous présenter la beta de Kingdom Hearts Dle !",
+        "newFeatures": [],
+        "changedFeatures": [
+            "numéro 1",
+            "numéro 2",
+            "numéro 3",
+            "numéro 4"
+        ]
+    }
+]

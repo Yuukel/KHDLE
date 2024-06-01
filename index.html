@@ -4,87 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KHDLE</title>
+    <link rel="icon" href="./data/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
         <img src="./data/img/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><button id="rulesBtn">Règles</button></li>
+                <li><button id="infosBtn">Informations</button></li>
+                <li><button id="updatesBtn">Actualités</button></li>
+            </ul>
+        </nav>
     </header>
     
     <hr>
 
-    <div class="legend">
-        <div>
-            <div class="wrong"></div>
-            <p>INCORRECT</p>
-        </div>
-        <div>
-            <div class="almost"></div>
-            <p>PRESQUE</p>
-        </div>
-        <div>
-            <div class="correct"></div>
-            <p>CORRECT</p>
-        </div>
+    <div class="start-game">
+            <button id="start-game-btn">Commencer la partie</button>
+            <hr>
+            <button id="customize-game-btn">Personnaliser la partie</button>
+            <div class="customize-content">
+                <p>
+                    Salut <span style="font-weight:bold; font-size:40px">Alegzandre</span> <span style="color:red; opacity:0.75; font-weight:bold">(oui ça c'est vrai)</span>
+                    <br>
+                    Voici une quelques idées de trucs à faire si tu as envie :
+                </p>
+                <ul>
+                    <li>Styliser les trucs (CSS)</li>
+                    <li>Faire les filtres (HTML / CSS / JS)</li>
+                    <li>Continuer la base de données (JSON)</li>
+                    <li>Ajouter les flèches et les chronologies et tout (que JS car CSS déjà fait)</li>
+                    <li>Faire le <span style="font-weight:bold; font-size: 20px;">RESPONSIIIIIIIIVE WEB DESIGN</span></li>
+                    <li>Voir pour mettre un truc quelque part pour reset le meilleur score (juste le supprimer du localStorage devrait être suffisant)</li>
+                    <li>D'autres idées si tu as :))</li>
+                    <li><strike style="opacity:0.5">optimiser le code et gagner pleins de lignes dans le CSS et le JS en séparant en plusieurs fichiers par exemple xd lol issou personne ne veut faire ça</strike></li>
+                </ul>
+                <p>
+                    Voici quelques informations sur le header :
+                    <br>
+                    <br>
+                    <u>Règles :</u> pour afficher comment jouer au jeu etc
+                    <br>
+                    <br>
+                    <u>Informations :</u> pour afficher chaque catégories avec chaque valeurs possibles ?<br>
+                    exemple : catégorie licence on va afficher KH, Disney et FF (puis Pixar plus tard) afin
+                    d'afficher toutes les valeurs possibles quoi, que les gens soient au courant
+                    <br>
+                    <br>
+                    <u>Actualités :</u> j'ai pensé à afficher toutes les updates en les stockant dans un fichier json,
+                    j'y réfléchis encore mais j'aimerais que tu me laisses cette partie là parce que j'ai envie de la faire :')
+                    <br>
+                    <br>
+                    <i style="opacity:0.5;">voir fin html pour le contenu des popups</i>
+                    <br>
+                    <br>
+                    Sur ce, j'arrête pour ce soir <span style="font-size: 20px">BISOUS</span>
+                </p>
+            </div>
     </div>
 
-    <div class="score">
-        <p class="current-score" id="current-score">Score actuel : 0</p>
-        <p class="current-highscore" id="current-highscore">Meilleure score : 0</p>
-    </div>
-
-    <div class="lives" id="lives">
-
-    </div>
+    <div class="game">
+        <div class="legend">
+            <div>
+                <div class="wrong"></div>
+                <p>INCORRECT</p>
+            </div>
+            <div>
+                <div class="almost"></div>
+                <p>PRESQUE</p>
+            </div>
+            <div>
+                <div class="correct"></div>
+                <p>CORRECT</p>
+            </div>
+        </div>
     
-    <div class="guess">
-        <form>
-            <input type="text" name="guess" id="guessField" placeholder="Entrer un personnage" autocomplete=off>
-            <div id="list"></div>
-            <input type="submit" id="guessButton" value="DEVINER !">
-        </form>
+        <div class="score">
+            <p class="current-score" id="current-score">Score actuel : 0</p>
+            <p class="current-highscore" id="current-highscore">Meilleure score : 0</p>
+        </div>
+    
+        <div class="lives" id="lives">
+    
+        </div>
+        
+        <div class="guess">
+            <form>
+                <input type="text" name="guess" id="guessField" placeholder="Entrer un personnage" autocomplete=off>
+                <div id="list"></div>
+                <input type="submit" id="guessButton" value="DEVINER !">
+            </form>
+        </div>
+    
+        <div class="end-infos" id="end-infos">
+            <h3 id="end-text"></h3>
+            <button id="endButton"></button>
+        </div>
+    
+        <div class="showSummary">
+            <input type="checkbox" name="show" id="showSummary">
+            <label for="show">Afficher le résumé</label>
+        </div>
+        <table>
+            <thead>
+                <tr class="summary">
+                    <td class="cube character">Résumé</td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td>
+                    <td class="cube empty"></td> <!-- Mettre la fourchette 1928-2004 directement ? -->
+                    <td class="cube empty"></td>
+                </tr>
+                <tr>
+                    <th>Nom</th>
+                    <th>Genre</th>
+                    <th>Type</th>
+                    <th>Rôle</th>
+                    <th>Arme</th>
+                    <th>Monde d'origine</th>
+                    <th>Première apparition</th>
+                    <th>Parution</th>
+                    <th>Licence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ajout des éléments dynamiquement -->
+            </tbody>
+        </table>
     </div>
 
-    <div class="end-infos" id="end-infos">
-        <h3 id="end-text"></h3>
-        <button id="endButton"></button>
-    </div>
+    <dialog id="rulesPopup">
+        <div class="modal-header">
+            <div></div>
+            <h2>Règles</h2>
+            <button class="closePopup" id="closeRulesPopup">Fermer</button>
+        </div>
+        <p>Popup pour les règles <br>
+            c'est vide issou
+        </p>
+        <img src="https://belle-isle.eu/wp-content/uploads/sites/2/2010/02/panneau_travaux.jpg" alt="">
+    </dialog>
 
-    <div class="showSummary">
-        <input type="checkbox" name="show" id="showSummary">
-        <label for="show">Afficher le résumé</label>
-    </div>
-    <table>
-        <thead>
-            <tr class="summary">
-                <td class="cube character">Résumé</td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-                <td class="cube empty"></td>
-            </tr>
-            <tr>
-                <th>Nom</th>
-                <th>Genre</th>
-                <th>Type</th>
-                <th>Rôle</th>
-                <th>Arme</th>
-                <th>Monde d'origine</th>
-                <th>Première apparition</th>
-                <th>Parution</th>
-                <th>Licence</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Ajout des éléments dynamiquement -->
-        </tbody>
-    </table>
+    <dialog id="infosPopup">
+        <div class="modal-header">
+            <div></div>
+            <h2>Informations</h2>
+            <button class="closePopup" id="closeInfosPopup">Fermer</button>
+        </div>
+        <p>Popup pour les infos</p>
+        <img src="data:image/jpeg;base64,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" alt="">
+    </dialog>
 
-    <script type="module" src="script.js"></script>
+    <dialog id="updatesPopup">
+        <div class="modal-header">
+            <div></div>
+            <h2>Actualités</h2>
+            <button class="closePopup" id="closeUpdatesPopup">Fermer</button>
+        </div>
+        <p>Popup pour les updates</p>
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/1735548589304790050/0DB570EEF24E93A4D5C07E463D35FBB8CB99E0BF/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="">
+    </dialog>
+
+    <script type="module" src="game_script.js"></script>
+    <script type="module" src="popup_script.js"></script>
 </body>
 </html>
