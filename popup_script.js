@@ -20,6 +20,7 @@ infosBtn.addEventListener('click', () => {
 });
 
 import updates from './data/updates.json' with { type : 'json' };
+// Problèmes quand on ouvre et ferme la fenêtre => ajouter une classe au div et les supprimer quand on ferme
 updatesBtn.addEventListener('click', () => {
     for(let v = updates.length-1 ; v > -1 ; v--){
         var patch = document.createElement("div");
