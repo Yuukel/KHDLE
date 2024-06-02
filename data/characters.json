@@ -1,6 +1,7 @@
 [
   {
     "nom": "Sora",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Jouable"],
@@ -12,6 +13,7 @@
   },
   {
     "nom": "Riku",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Jouable", "Allié", "Boss"],
@@ -23,6 +25,7 @@
   },
   {
     "nom": "Kairi",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Jouable", "Allié", "Princesse de Coeur"],
@@ -34,6 +37,7 @@
   },
   {
     "nom": "Tidus",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -45,6 +49,7 @@
   },
   {
     "nom": "Wakka",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -56,6 +61,7 @@
   },
   {
     "nom": "Selphie",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -67,6 +73,7 @@
   },
   {
     "nom": "Ansem le chercheur des ténèbres",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Sans-Coeur"],
     "role": ["Antagoniste", "Boss"],
@@ -78,6 +85,7 @@
   },
   {
     "nom": "Mickey Mouse",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié", "Lien-D"],
@@ -89,6 +97,7 @@
   },
   {
     "nom": "Donald",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié"],
@@ -100,6 +109,7 @@
   },
   {
     "nom": "Dingo",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Jouable", "Allié"],
@@ -111,6 +121,7 @@
   },
   {
     "nom": "Pluto",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -122,6 +133,7 @@
   },
   {
     "nom": "Minnie",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Allié"],
@@ -133,6 +145,7 @@
   },
   {
     "nom": "Daisy",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -144,6 +157,7 @@
   },
   {
     "nom": "Tic & Tac",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -155,6 +169,7 @@
   },
   {
     "nom": "Leon",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié"],
@@ -166,6 +181,7 @@
   },
   {
     "nom": "Youffie",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Allié"],
@@ -177,6 +193,7 @@
   },
   {
     "nom": "Cid",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -188,6 +205,7 @@
   },
   {
     "nom": "Aerith",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -199,6 +217,7 @@
   },
   {
     "nom": "Merlin",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -210,6 +229,7 @@
   },
   {
     "nom": "La Bonne Fée",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -221,6 +241,7 @@
   },
   {
     "nom": "Maléfique",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Boss", "Antagoniste"],
@@ -232,6 +253,7 @@
   },
   {
     "nom": "Riri Fifi Loulou",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -243,6 +265,7 @@
   },
   {
     "nom": "Mog",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -254,6 +277,7 @@
   },
   {
     "nom": "Simba",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Allié","Invocation"],
@@ -265,6 +289,7 @@
   },
   {
     "nom": "Winnie",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -276,6 +301,7 @@
   },
   {
     "nom": "Porcinet",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -287,6 +313,7 @@
   },
   {
     "nom": "Tigrou",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -298,6 +325,7 @@
   },
   {
     "nom": "Coco Lapin",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -309,6 +337,7 @@
   },
   {
     "nom": "Bourriquet",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -320,6 +349,7 @@
   },
   {
     "nom": "Maître Hibou",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -331,6 +361,7 @@
   },
   {
     "nom": "Petit Gourou",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -342,6 +373,7 @@
   },
   {
     "nom": "Alice",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur"],
@@ -353,6 +385,7 @@
   },
   {
     "nom": "Chat de Cheshire",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -364,6 +397,7 @@
   },
   {
     "nom": "Reine de Coeur",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Ennemi"],
@@ -375,6 +409,7 @@
   },
   {
     "nom": "Lapin Blanc",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -386,6 +421,7 @@
   },
   {
     "nom": "Hercule",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain", "Autre"],
     "role": ["Allié", "Boss"],
@@ -397,6 +433,7 @@
   },
   {
     "nom": "Philoctète",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -408,6 +445,7 @@
   },
   {
     "nom": "Cerbère",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -419,6 +457,7 @@
   },
   {
     "nom": "Hades",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -430,6 +469,7 @@
   },
   {
     "nom": "Titan de Glace",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -441,6 +481,7 @@
   },
   {
     "nom": "Cloud",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié", "Boss", "Invocation"],
@@ -452,6 +493,7 @@
   },
   {
     "nom": "Sephiroth",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -463,6 +505,7 @@
   },
   {
     "nom": "Tarzan",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié"],
@@ -474,6 +517,7 @@
   },
   {
     "nom": "Jane",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -485,6 +529,7 @@
   },
   {
     "nom": "Clayton",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Boss"],
@@ -496,6 +541,7 @@
   },
   {
     "nom": "Aladdin",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié"],
@@ -507,6 +553,7 @@
   },
   {
     "nom": "Jasmine",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur"],
@@ -518,6 +565,7 @@
   },
   {
     "nom": "Jafar",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain", "Autre"],
     "role": ["Boss"],
@@ -529,6 +577,7 @@
   },
   {
     "nom": "Iago",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Ennemi"],
@@ -540,6 +589,7 @@
   },
   {
     "nom": "Génie",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Invocation"],
@@ -551,6 +601,7 @@
   },
   {
     "nom": "Monstro",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -562,6 +613,7 @@
   },
   {
     "nom": "Pinocchio",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -573,6 +625,7 @@
   },
   {
     "nom": "Geppetto",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -584,6 +637,7 @@
   },
   {
     "nom": "Jiminy",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -595,6 +649,7 @@
   },
   {
     "nom": "Ariel",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Allié", "Invocation"],
@@ -606,6 +661,7 @@
   },
   {
     "nom": "Polochon",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -617,6 +673,7 @@
   },
   {
     "nom": "Sebastien",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -628,6 +685,7 @@
   },
   {
     "nom": "Triton",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -639,6 +697,7 @@
   },
   {
     "nom": "Ursula",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -650,6 +709,7 @@
   },
   {
     "nom": "Jack Skellington",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Allié"],
@@ -661,6 +721,7 @@
   },
   {
     "nom": "Sally",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["PNJ"],
@@ -672,6 +733,7 @@
   },
   {
     "nom": "Am Stram Gram",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Ennemi"],
@@ -683,6 +745,7 @@
   },
   {
     "nom": "Oogie Boogie",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Boss"],
@@ -694,6 +757,7 @@
   },
   {
     "nom": "Peter Pan",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Allié", "Invocation"],
@@ -705,6 +769,7 @@
   },
   {
     "nom": "Clochette",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Autre"],
     "role": ["Invocation"],
@@ -716,6 +781,7 @@
   },
   {
     "nom": "Wendy",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -727,6 +793,7 @@
   },
   {
     "nom": "Capitaine Crochet",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["Boss"],
@@ -738,6 +805,7 @@
   },
   {
     "nom": "La Bête",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Allié", "Ennemi"],
@@ -749,6 +817,7 @@
   },
   {
     "nom": "Belle",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur"],
@@ -760,6 +829,7 @@
   },
   {
     "nom": "Blanche Neige",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur"],
@@ -771,6 +841,7 @@
   },
   {
     "nom": "Cendrillon",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur", "Lien-D"],
@@ -782,6 +853,7 @@
   },
   {
     "nom": "Aurore",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain"],
     "role": ["Princesse de Coeur"],
@@ -793,6 +865,7 @@
   },
   {
     "nom": "Darkside",
+    "alias": "",
     "genre": "Autre",
     "type": ["Sans-Coeur"],
     "role": ["Boss"],
@@ -804,6 +877,7 @@
   },
   {
     "nom": "Bambi",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Invocation"],
@@ -815,6 +889,7 @@
   },
   {
     "nom": "Dumbo",
+    "alias": "",
     "genre": "Autre",
     "type": ["Autre"],
     "role": ["Invocation"],
@@ -826,6 +901,7 @@
   },
   {
     "nom": "Mushu",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Autre"],
     "role": ["Invocation"],
@@ -837,6 +913,7 @@
   },
   {
     "nom": "Naminé",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Simili"],
     "role": ["PNJ"],
@@ -848,6 +925,7 @@
   },
   {
     "nom": "Ansem le Sage",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -859,6 +937,7 @@
   },
   {
     "nom": "Marluxia",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain","Simili"],
     "role": ["Antagoniste", "Organisation XIII", "Leader"],
@@ -870,6 +949,7 @@
   },
   {
     "nom": "Larxene",
+    "alias": "",
     "genre": "Féminin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -881,6 +961,7 @@
   },
   {
     "nom": "Axel",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII", "Allié"],
@@ -892,6 +973,7 @@
   },
   {
     "nom": "Vexen",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -903,6 +985,7 @@
   },
   {
     "nom": "Zexion",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -914,6 +997,7 @@
   },
   {
     "nom": "Lexaeus",
+    "alias": "",
     "genre": "Masculin",
     "type": ["Boss", "Simili"],
     "role": ["Boss", "Organisation XIII"],

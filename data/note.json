@@ -1,6 +1,7 @@
 [
     {
         "nom": "nom",
+        "alias": "",
         "genre": ["Masculin", "Féminin", "Autre"],
         "type": ["Humain", "Simili", "Sans-Coeur", "Autre"],
         "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste", "Orga"],
@@ -12,6 +13,7 @@
     },
     {
         "nom": "",
+        "alias": "",
         "genre": "",
         "type": [""],
         "role": [""],

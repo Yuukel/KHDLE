@@ -216,7 +216,7 @@ table thead tr th{
 }
 
 .cube{
-    width: 75px;
+    min-width: 75px;
     height: 75px;
     border: 3px solid black;
     border-radius: 4px;
@@ -227,6 +227,21 @@ table thead tr th{
 
     animation: fadeIn 0.3s ease-in;
 }
+
+table{
+    border-spacing: 6px 20px;
+}
+
+table thead{
+    text-wrap: nowrap;
+}
+
+table thead tr hr{
+    margin-bottom: -10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 @keyframes fadeIn{
     from {opacity: 0;}
@@ -351,6 +366,21 @@ table thead tr th{
 .char-item img{
     height: 50px;
     width: auto;
+}
+
+.char-name-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.char-name-div i{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-wrap: wrap;
 }
 
 .end-infos{

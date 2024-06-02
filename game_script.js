@@ -61,8 +61,8 @@ function checkGuess(event){
     let checkableGuess = false;
     let index;
     for(let i = 0 ; i < characters.length ; i++){
-        if(guessField.value.toLowerCase() == characters[i].nom.toLowerCase()){
-            if([...table.rows].every(row => row.cells[0].id.toLowerCase() !== guessField.value.toLowerCase())){
+        if(guessField.value.toLowerCase() == characters[i].nom.toLowerCase() || guessField.value.toLowerCase() == characters[i].alias.toLowerCase()){
+            if([...table.rows].every(row => row.cells[0].id.toLowerCase() !== characters[i].nom.toLowerCase())){
                 checkableGuess = true;
                 index = i;
             }
@@ -92,7 +92,10 @@ function checkGuess(event){
         img.alt = characters[index].nom;
 
         var name = document.createElement('div');
-        name.textContent = characters[index].nom;
+        if(guessField.value.toLowerCase() == characters[index].nom.toLowerCase())
+            name.textContent = characters[index].nom;
+        else
+            name.textContent = characters[index].alias;
         name.classList.add('char-name');
 
         img.addEventListener('mouseover', () => {
@@ -281,13 +284,31 @@ async function addElements(tr, elements){
     }
 }
 
+function removeAccents(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 // Création liste pour la zone de recherche
 const list = document.getElementById('list');
 guessField.addEventListener('input', () => {
-    const search = guessField.value.toLowerCase();
+    const search = removeAccents(guessField.value.toLowerCase());
     list.innerHTML = "";
     if(search){
-        let charList = characters.filter(character => character.nom.toLowerCase().startsWith(search));
+        // let charList = characters.filter(character => character.nom.toLowerCase().startsWith(search));
+        let charList = characters.filter(character => {
+            return character.nom.toLowerCase().split(' ').some(nom => removeAccents(nom).startsWith(search));
+        });
+
+        charList = charList.concat(characters.filter(character => {
+            // Vérifie si le personnage correspond à la recherche
+            const matchesSearch = character.alias.toLowerCase().split(' ').some(alias => removeAccents(alias).startsWith(search));
+        
+            // Vérifie si le personnage n'est pas déjà dans charList
+            const notInCharList = !charList.some(existingChar => existingChar.nom === character.nom);
+        
+            return matchesSearch && notInCharList;
+        }));
+
         let addList = false;
 
         // Tri par ordre alphabétique (tri à bulle)
@@ -311,13 +332,16 @@ guessField.addEventListener('input', () => {
                 const charItem = document.createElement('div');
                 charItem.classList.add('char-item');
                 const p = document.createElement('p');
-                p.textContent = character.nom;
+                if(character.nom.toLowerCase().split(' ').some(nom => removeAccents(nom).startsWith(search)))
+                    p.textContent = character.nom;
+                else
+                    p.textContent = character.alias;
                 const img = document.createElement('img');
                 img.src = './data/img/' + character.nom.toLowerCase().split(" ").join("") + '.png';
                 charItem.appendChild(img);
                 charItem.appendChild(p);
                 charItem.addEventListener('click', () => {
-                    guessField.value = character.nom;
+                    guessField.value = p.textContent;
                     list.innerHTML = "";
                     list.style.display = 'none';
                 });
