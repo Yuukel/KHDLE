@@ -392,6 +392,8 @@ function nextRound(){
     document.querySelector('.end-infos').style.display = 'none';
     lives = 7;
     setLives();
+    minYear = 1928;
+    maxYear = 2004;
     randomNumber = Math.floor(Math.random()*characters.length);
     table.innerHTML = "";
 
