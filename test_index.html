@@ -7,6 +7,7 @@
     <link rel="icon" href="./data/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="popup_style.css">
+    <link rel="stylesheet" href="test_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -20,6 +21,21 @@
             </ul>
         </nav>
     </header>
+
+    <div class="profile">
+        <div class="profile-picture">
+            <img src="./data/img/sora.png" alt="">
+        </div>
+        <div class="profile-infos">
+            <div class="name">
+                <span class="profile-name">Sora</span>
+                <span class="profile-level">niveau 1</span>
+            </div>
+            <div class="xp-container">
+                <div class="xp-bar"></div>
+            </div>
+        </div>
+    </div>
     
     <hr>
 
@@ -128,15 +144,7 @@
             <h2>Informations</h2>
             <button class="closePopup" id="closeInfosPopup">Fermer</button>
         </div>
-        <p>Informations sur les catégories du DLE:</p>
-        <div class="container">
-            <div id="choixLicence">
-                <h3>Personnages:</h3>
-                <button id="khLicenceBtn"><img src="./data/img/KHLicence_Logo.png" alt="Licence KH"></button>
-                <button id="disneyLicenceBtn"><img src="./data/img/DisneyLicence_Logo.png" alt="Disney-Pixar Licence"></button>
-                <button id="squareLicenceBtn"><img src="./data/img/Square_Logo.png" alt="Square Enix Licence"></button>
-            </div>
-        </div>
+        <p>Popup pour les infos</p>
     </dialog>
 
     <dialog id="updatesPopup">

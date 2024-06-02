@@ -21,6 +21,8 @@ body{
     color: rgb(200, 200, 200);
     background-image: url("https://i.redd.it/fej94dm1q2361.jpg");
     background-size: contain;
+
+    overflow: hidden;
 }
 
 header{
@@ -53,15 +55,55 @@ header nav ul li button{
     border: none;
     border-radius: 3px;
 
-    background-color: rgb(200, 200, 200);
-    color: black;
+    background: none;
+    color: rgb(200, 200, 200);
     font-weight: bold;
 
     cursor: pointer;
-    transition: background-color 0.25s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-header nav ul li button:hover, .start-game #start-game-btn:hover, .start-game #customize-game-btn:hover{
+header nav ul li button .title{
+    margin-top: 60px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li button hr{
+    visibility: hidden;
+    width: 0px;
+    border-color:rgb(0, 119, 255);
+    transition: visibility 0.2s linear, width 0.2s linear;
+}
+
+header nav ul li button span:not(.title){
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 400;
+    text-wrap: nowrap;
+    transition: visibility 0.075s, opacity 0.3s linear;
+}
+
+header nav ul li button:hover .title{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+header nav ul li button:hover hr{
+    visibility: visible;
+    width: 100%;
+}
+
+header nav ul li button:hover span:not(.title){
+    margin-top: -10px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.start-game #start-game-btn:hover, .start-game #customize-game-btn:hover{
     background-color: rgb(150, 150, 150);
 }
 

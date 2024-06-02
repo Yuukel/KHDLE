@@ -73,7 +73,7 @@
   },
   {
     "nom": "Ansem le chercheur des ténèbres",
-    "alias": "",
+    "alias": "Xehanort",
     "genre": "Masculin",
     "type": ["Sans-Coeur"],
     "role": ["Antagoniste", "Boss"],
@@ -925,7 +925,7 @@
   },
   {
     "nom": "Ansem le Sage",
-    "alias": "",
+    "alias": "DiZ",
     "genre": "Masculin",
     "type": ["Humain"],
     "role": ["PNJ"],
@@ -937,7 +937,7 @@
   },
   {
     "nom": "Marluxia",
-    "alias": "",
+    "alias": "Lauriam",
     "genre": "Masculin",
     "type": ["Humain","Simili"],
     "role": ["Antagoniste", "Organisation XIII", "Leader"],
@@ -949,7 +949,7 @@
   },
   {
     "nom": "Larxene",
-    "alias": "",
+    "alias": "Elrena",
     "genre": "Féminin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -961,7 +961,7 @@
   },
   {
     "nom": "Axel",
-    "alias": "",
+    "alias": "Lea",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII", "Allié"],
@@ -973,7 +973,7 @@
   },
   {
     "nom": "Vexen",
-    "alias": "",
+    "alias": "Even",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -985,7 +985,7 @@
   },
   {
     "nom": "Zexion",
-    "alias": "",
+    "alias": "Ienzo",
     "genre": "Masculin",
     "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
@@ -997,7 +997,7 @@
   },
   {
     "nom": "Lexaeus",
-    "alias": "",
+    "alias": "Aeleus",
     "genre": "Masculin",
     "type": ["Boss", "Simili"],
     "role": ["Boss", "Organisation XIII"],
