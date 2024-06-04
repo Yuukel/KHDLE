@@ -2,24 +2,24 @@ const settingsPopup = document.getElementById("settings");
 const settingsBtn = document.querySelector(".fa-trash");
 const deleteDataBtn = document.getElementById("yes");
 
-const rulesPopup = document.getElementById('rulesPopup');
-const rulesBtn = document.getElementById('rulesBtn');
+const rulesPopup = document.getElementById('rules-popup');
+const rulesBtn = document.getElementById('rules-btn');
 
-const infosPopup = document.getElementById('infosPopup');
-const infosBtn = document.getElementById('infosBtn');
+const infosPopup = document.getElementById('infos-popup');
+const infosBtn = document.getElementById('infos-btn');
 
 // Catégories sélectionnables
-const khLicenceBtn = document.getElementById('khLicenceBtn');
-const disneyLicenceBtn = document.getElementById('disneyLicenceBtn');
-const squareLicenceBtn = document.getElementById('squareLicenceBtn');
+const khLicenceBtn = document.getElementById('kh-licence-btn');
+const disneyLicenceBtn = document.getElementById('disney-licence-btn');
+const squareLicenceBtn = document.getElementById('square-licence-btn');
 
-const updatesPopup = document.getElementById('updatesPopup');
-const updatesBtn = document.getElementById('updatesBtn');
+const updatesPopup = document.getElementById('updates-popup');
+const updatesBtn = document.getElementById('updates-btn');
 
 const closeSettingsPopupBtn = document.getElementById('no');
-const closeRulesPopupBtn = document.getElementById('closeRulesPopup');
-const closeInfosPopupBtn = document.getElementById('closeInfosPopup');
-const closeUpdatesPopupBtn = document.getElementById('closeUpdatesPopup');
+const closeRulesPopupBtn = document.getElementById('close-rules-popup');
+const closeInfosPopupBtn = document.getElementById('close-infos-popup');
+const closeUpdatesPopupBtn = document.getElementById('close-updates-popup');
 
 settingsBtn.addEventListener('click', () => {
     settingsPopup.showModal();
@@ -39,13 +39,13 @@ infosBtn.addEventListener('click', () => {
     if(document.querySelector(".container").children.length > 1){
         document.querySelector(".container").removeChild(document.querySelector(".container").children[1]);
     }
-    removeSelected(document.getElementById('choixLicence'));
+    removeSelected(document.getElementById('choix-licence'));
     infosPopup.showModal();
 });
 
-import characters from './data/characters.json' with { type : 'json' }; // import des persos
+import characters from '../data/json/characters.json' with { type : 'json' }; // import des persos
 khLicenceBtn.addEventListener('click', () => {
-    removeSelected(document.getElementById('choixLicence')); // on retire l'état sélectionné à tout
+    removeSelected(document.getElementById('choix-licence')); // on retire l'état sélectionné à tout
     khLicenceBtn.classList.add('selected'); // on ajoute l'état sélectionné
     const games = ["Kingdom Hearts", "Kingdom Hearts Chain of Memories"]; // tableau des jeux
     let container = document.querySelector(".container");
@@ -76,7 +76,7 @@ khLicenceBtn.addEventListener('click', () => {
 });
 
 disneyLicenceBtn.addEventListener('click', () => {
-    removeSelected(document.getElementById('choixLicence'));
+    removeSelected(document.getElementById('choix-licence'));
     disneyLicenceBtn.classList.add('selected');
     let container = document.querySelector(".container");
     let buttonContainer = document.createElement('div');
@@ -95,7 +95,7 @@ disneyLicenceBtn.addEventListener('click', () => {
 });
 
 squareLicenceBtn.addEventListener('click', () => {
-    removeSelected(document.getElementById('choixLicence'));
+    removeSelected(document.getElementById('choix-licence'));
     squareLicenceBtn.classList.add('selected');
     let container = document.querySelector(".container");
     let buttonContainer = document.createElement('div');
@@ -125,7 +125,7 @@ function addCharacters(filterParam){
     for(let i = 0 ; i < list.length ; i++){
         let container = document.createElement('div');
         let img = document.createElement('img');
-        img.src = './data/img/' + list[i].nom.toLowerCase().split(' ').join('') + '.png';
+        img.src = '../data/img/characters/' + list[i].nom.toLowerCase().split(' ').join('') + '.png';
 
         let name = document.createElement('div');
         name.textContent = list[i].nom;
@@ -160,7 +160,7 @@ function removeSelected(container){
     }
 }
 
-import updates from './data/updates.json' with { type : 'json' };
+import updates from '../data/json/updates.json' with { type : 'json' };
 updatesBtn.addEventListener('click', () => {
     for(let v = updates.length-1 ; v > -1 ; v--){
         var patch = document.createElement("div");

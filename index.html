@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KHDLE</title>
-    <link rel="icon" href="./data/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="popup_style.css">
+    <link rel="icon" href="./data/img/resources/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/common_style.css">
+    <link rel="stylesheet" href="./css/popup_style.css">
+    <link rel="stylesheet" href="./css/game_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <img src="./data/img/logo.png" alt="logo">
+        <img src="./data/img/resources/logo.png" alt="logo">
         <nav>
             <ul>
-                <li><button id="rulesBtn"><span class="title">Règles</span><hr><span>voir les règles</span></button></li>
-                <li><button id="infosBtn"><span class="title">Informations</span><hr><span>voir les infos</span></button></li>
-                <li><button id="updatesBtn"><span class="title">Actualités</span><hr><span>voir les actus</span></button></li>
+                <li><button id="rules-btn"><span class="title">Règles</span><hr><span>voir les règles</span></button></li>
+                <li><button id="infos-btn"><span class="title">Informations</span><hr><span>voir les infos</span></button></li>
+                <li><button id="updates-btn"><span class="title">Actualités</span><hr><span>voir les actus</span></button></li>
             </ul>
         </nav>
         <i class="fa-solid fa-trash"></i>
@@ -30,7 +31,7 @@
             <button id="customize-game-btn">Personnaliser la partie</button>
             <div class="customize-content">
                 <div class="custom-select-container">
-                    <div class="custom-select" id="customSelect">
+                    <div class="custom-select" id="custom-select">
                         <span class="select-placeholder">Filtrer les jeux</span>
                         <div class="select-options">
                             <label>
@@ -80,19 +81,19 @@
         
         <div class="guess">
             <form>
-                <input type="text" name="guess" id="guessField" placeholder="Entrer un personnage" autocomplete=off>
+                <input type="text" name="guess" id="guess-field" placeholder="Entrer un personnage" autocomplete=off>
                 <div id="list"></div>
-                <input type="submit" id="guessButton" value="DEVINER !">
+                <input type="submit" id="guess-btn" value="DEVINER !">
             </form>
         </div>
     
         <div class="end-infos" id="end-infos">
             <h3 id="end-text"></h3>
-            <button id="endButton"></button>
+            <button id="end-btn"></button>
         </div>
     
-        <div class="showSummary">
-            <input type="checkbox" name="show" id="showSummary">
+        <div class="show-summary">
+            <input type="checkbox" name="show" id="show-summary">
             <label for="show">Afficher le résumé</label>
         </div>
         <table>
@@ -136,40 +137,40 @@
         </div>
     </dialog>
 
-    <dialog id="rulesPopup">
+    <dialog id="rules-popup">
         <div class="modal-header">
             <h2>Règles</h2>
-            <button class="closePopup" id="closeRulesPopup">Fermer</button>
+            <button class="close-popup" id="close-rules-popup">Fermer</button>
         </div>
         <p>Popup pour les règles <br>
             c'est vide issou
         </p>
     </dialog>
 
-    <dialog id="infosPopup">
+    <dialog id="infos-popup">
         <div class="modal-header">
             <h2>Informations</h2>
-            <button class="closePopup" id="closeInfosPopup">Fermer</button>
+            <button class="close-popup" id="close-infos-popup">Fermer</button>
         </div>
         <p>Informations sur les catégories du DLE:</p>
         <div class="container">
-            <div id="choixLicence">
+            <div id="choix-licence">
                 <h3>Personnages:</h3>
-                <button id="khLicenceBtn"><img src="./data/img/KHLicence_Logo.png" alt="Licence KH"></button>
-                <button id="disneyLicenceBtn"><img src="./data/img/DisneyLicence_Logo.png" alt="Disney-Pixar Licence"></button>
-                <button id="squareLicenceBtn"><img src="./data/img/Square_Logo.png" alt="Square Enix Licence"></button>
+                <button id="kh-licence-btn"><img src="./data/img/resources/KHLicence_Logo.png" alt="Licence KH"></button>
+                <button id="disney-licence-btn"><img src="./data/img/resources/DisneyLicence_Logo.png" alt="Disney-Pixar Licence"></button>
+                <button id="square-licence-btn"><img src="./data/img/resources/Square_Logo.png" alt="Square Enix Licence"></button>
             </div>
         </div>
     </dialog>
 
-    <dialog id="updatesPopup">
+    <dialog id="updates-popup">
         <div class="modal-header">
             <h2>Actualités</h2>
-            <button class="closePopup" id="closeUpdatesPopup">Fermer</button>
+            <button class="close-popup" id="close-updates-popup">Fermer</button>
         </div>
     </dialog>
 
-    <script type="module" src="game_script.js"></script>
-    <script type="module" src="popup_script.js"></script>
+    <script type="module" src="./js/game_script.js"></script>
+    <script type="module" src="./js/popup_script.js"></script>
 </body>
 </html>

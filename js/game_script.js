@@ -8,7 +8,7 @@ document.addEventListener('keydown', disableEnterKey);
 var game = document.querySelector('.game');
 var start = document.querySelector('.start-game');
 
-import charactersList from './data/characters.json' with { type : 'json' };
+import charactersList from '../data/json/characters.json' with { type : 'json' };
 
 let bestScore = localStorage.getItem('bestScore') || 0;
 if(bestScore == 0){
@@ -53,8 +53,8 @@ function startGame(){
 let minYear = 1928;
 let maxYear = 2004;
 
-const guessBtn = document.getElementById("guessButton");
-const guessField = document.getElementById("guessField");
+const guessBtn = document.getElementById("guess-btn");
+const guessField = document.getElementById("guess-field");
 const table = document.querySelector("tbody");
 const summary = document.querySelector(".summary");
 function checkGuess(event){
@@ -90,7 +90,7 @@ function checkGuess(event){
         
         nom.classList.add("cube","character");
         var img = document.createElement("img");
-        img.src = './data/img/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
+        img.src = '../data/img/characters/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
         img.alt = characters[index].nom;
 
         var name = document.createElement('div');
@@ -339,7 +339,7 @@ guessField.addEventListener('input', () => {
                 else
                     p.textContent = character.alias;
                 const img = document.createElement('img');
-                img.src = './data/img/' + character.nom.toLowerCase().split(" ").join("") + '.png';
+                img.src = '../data/img/characters/' + character.nom.toLowerCase().split(" ").join("") + '.png';
                 charItem.appendChild(img);
                 charItem.appendChild(p);
                 charItem.addEventListener('click', () => {
@@ -368,8 +368,8 @@ function winRound(){
     guessBtn.disabled = true;
     document.querySelector('.end-infos').style.display = 'flex';
     document.getElementById('end-text').textContent = "GG, le perso à deviner était bien : " + characters[randomNumber].nom;
-    document.getElementById('endButton').textContent = "Manche suivante";
-    document.getElementById('endButton').addEventListener('click', nextRound);
+    document.getElementById('end-btn').textContent = "Manche suivante";
+    document.getElementById('end-btn').addEventListener('click', nextRound);
     currentScore++;
     document.getElementById('current-score').textContent = "Score actuel : " + currentScore;
     if(currentScore > bestScore){
@@ -384,8 +384,8 @@ function gameOver(){
     guessBtn.disabled = true;
     document.querySelector('.end-infos').style.display = 'flex';
     document.getElementById('end-text').textContent = "Dommage... le perso à deviner était : " + characters[randomNumber].nom;
-    document.getElementById('endButton').textContent = "Recommencer la partie";
-    document.getElementById('endButton').addEventListener('click', newGame);
+    document.getElementById('end-btn').textContent = "Recommencer la partie";
+    document.getElementById('end-btn').addEventListener('click', newGame);
 }
 
 function nextRound(){
@@ -419,8 +419,8 @@ function newGame(){
 
 guessBtn.addEventListener('click', checkGuess);
 
-document.getElementById('showSummary').addEventListener('change', () => {
-    if(document.getElementById('showSummary').checked == true){
+document.getElementById('show-summary').addEventListener('change', () => {
+    if(document.getElementById('show-summary').checked == true){
         document.querySelector(".summary").style.display = 'revert';
     } else{
         document.querySelector(".summary").style.display = 'none';
@@ -445,7 +445,7 @@ function hideContent(){
 
 customizeGameBtn.addEventListener('click', showContent, { once: true });
 
-const customSelect = document.getElementById('customSelect');
+const customSelect = document.getElementById('custom-select');
 const optionsContainer = customSelect.querySelector('.select-options');
 const checkboxes = optionsContainer.querySelectorAll('input[type="checkbox"]');
 

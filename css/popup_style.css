@@ -45,7 +45,7 @@ dialog .modal-header{
     justify-content: center;
 }
 
-dialog .closePopup{
+dialog .close-popup{
     position: absolute;
     top: 10px;
     right: 10px;
@@ -60,7 +60,7 @@ dialog .closePopup{
     transition: background-color 0.2s ease;
 }
 
-dialog .closePopup:hover{
+dialog .close-popup:hover{
     background-color: rgb(224, 224, 224);
 }
 
@@ -113,26 +113,26 @@ dialog#settings .buttons #no:hover{
     background: rgb(224, 224, 224);
 }
 
-dialog#updatesPopup i{
+dialog#updates-popup i{
     opacity: 0.5;
     font-size: 15px;
 }
 
-dialog#updatesPopup p {
+dialog#updates-popup p {
     margin: 10px 0;
 }
-dialog#updatesPopup ul {
+dialog#updates-popup ul {
     list-style: disc inside;
 }
 
-dialog#updatesPopup hr{
+dialog#updates-popup hr{
     color: #333;
     width: 98%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-dialog#updatesPopup .highlight {
+dialog#updates-popup .highlight {
     background-color: #f4f4f4;
     padding: 10px;
     margin-top: 20px;
@@ -140,19 +140,19 @@ dialog#updatesPopup .highlight {
     border-radius: 5px;
 }
 
-dialog#infosPopup #choixLicence{
+dialog#infos-popup #choix-licence{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-dialog#infosPopup #choixLicence h3{
+dialog#infos-popup #choix-licence h3{
     margin: 0;
     display: flex;
     align-items: center;
 }
 
-dialog#infosPopup #choixLicence button{
+dialog#infos-popup #choix-licence button{
     border: none;
     height: 90px;
     border-radius: 10px;
@@ -164,16 +164,16 @@ dialog#infosPopup #choixLicence button{
     cursor: pointer;
 }
 
-dialog#infosPopup #choixLicence button:hover{
+dialog#infos-popup #choix-licence button:hover{
     background-color: rgb(224, 224, 224);
 }
 
-dialog#infosPopup #choixLicence button img{
+dialog#infos-popup #choix-licence button img{
     max-width: 100%;
     max-height: 100%;
 }
 
-dialog#infosPopup .container .btn-container{
+dialog#infos-popup .container .btn-container{
     margin-top: 20px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -183,7 +183,7 @@ dialog#infosPopup .container .btn-container{
     text-align: center;
 }
 
-dialog#infosPopup .container .btn-container button{
+dialog#infos-popup .container .btn-container button{
     border: none;
     height: 90px;
     border-radius: 10px;
@@ -199,11 +199,11 @@ dialog#infosPopup .container .btn-container button{
     cursor: pointer;
 }
 
-dialog#infosPopup .container .btn-container button:hover{
+dialog#infos-popup .container .btn-container button:hover{
     background-color: rgb(224, 224, 224);
 }
 
-dialog#infosPopup .container .img-grid{
+dialog#infos-popup .container .img-grid{
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(6, minmax(0,1fr));
@@ -212,16 +212,16 @@ dialog#infosPopup .container .img-grid{
     justify-content: center;
 }
 
-dialog#infosPopup .container .img-grid img{
+dialog#infos-popup .container .img-grid img{
     width: 100%;
     border: 1px solid black;
 }
 
-dialog#infosPopup .container .img-grid>div{
+dialog#infos-popup .container .img-grid>div{
     position: relative;
 }
 
-dialog#infosPopup .container .img-grid>div>div{
+dialog#infos-popup .container .img-grid>div>div{
     display: none;
     align-items: center;
     justify-content: center;
