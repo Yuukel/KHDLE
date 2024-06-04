@@ -1,3 +1,7 @@
+const settingsPopup = document.getElementById("settings");
+const settingsBtn = document.querySelector(".fa-trash");
+const deleteDataBtn = document.getElementById("yes");
+
 const rulesPopup = document.getElementById('rulesPopup');
 const rulesBtn = document.getElementById('rulesBtn');
 
@@ -12,9 +16,19 @@ const squareLicenceBtn = document.getElementById('squareLicenceBtn');
 const updatesPopup = document.getElementById('updatesPopup');
 const updatesBtn = document.getElementById('updatesBtn');
 
+const closeSettingsPopupBtn = document.getElementById('no');
 const closeRulesPopupBtn = document.getElementById('closeRulesPopup');
 const closeInfosPopupBtn = document.getElementById('closeInfosPopup');
 const closeUpdatesPopupBtn = document.getElementById('closeUpdatesPopup');
+
+settingsBtn.addEventListener('click', () => {
+    settingsPopup.showModal();
+});
+
+deleteDataBtn.addEventListener('click', () => {
+    localStorage.removeItem("bestScore");
+    window.location.reload();
+});
 
 rulesBtn.addEventListener('click', () => {
     rulesPopup.showModal();
@@ -209,9 +223,19 @@ updatesBtn.addEventListener('click', () => {
 });
 
 // Fermeture des popups
+closeSettingsPopupBtn.addEventListener('click', closeSettings);
 closeRulesPopupBtn.addEventListener('click',  closeRules);
 closeInfosPopupBtn.addEventListener('click', closeInfos);
 closeUpdatesPopupBtn.addEventListener('click', closeUpdates);
+
+settingsPopup.addEventListener('click', function(event){
+    var rect = settingsPopup.getBoundingClientRect();
+    var isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+    if (!isInDialog) {
+        closeSettings();
+    }
+});
 
 rulesPopup.addEventListener('click', function(event){
     var rect = rulesPopup.getBoundingClientRect();
@@ -239,6 +263,16 @@ updatesPopup.addEventListener('click', function(event){
         closeUpdates();
     }
 });
+
+function closeSettings(){
+    settingsPopup.style.animation = "fadeOut 0.3s forwards";
+    settingsPopup.style.setProperty('--backdrop-animation', "semiFadeOut 0.3s forwards");
+    settingsPopup.addEventListener('animationend', () => {
+        settingsPopup.close();
+        settingsPopup.style.animation = "fadeIn 0.3s forwards";
+        settingsPopup.style.setProperty('--backdrop-animation', "semiFadeIn 0.3s forwards");
+    }, {once: true });
+}
 
 function closeRules(){
     rulesPopup.style.animation = "fadeOut 0.3s forwards";

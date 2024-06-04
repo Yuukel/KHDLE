@@ -19,6 +19,7 @@
                 <li><button id="updatesBtn"><span class="title">Actualités</span><hr><span>voir les actus</span></button></li>
             </ul>
         </nav>
+        <i class="fa-solid fa-trash"></i>
     </header>
     
     <hr>
@@ -28,13 +29,25 @@
             <hr>
             <button id="customize-game-btn">Personnaliser la partie</button>
             <div class="customize-content">
+                <div class="custom-select-container">
+                    <div class="custom-select" id="customSelect">
+                        <span class="select-placeholder">Filtrer les jeux</span>
+                        <div class="select-options">
+                            <label>
+                                <input type="checkbox" value="Kingdom Hearts" checked>
+                                Kingdom Hearts
+                            </label>
+                            <label>
+                                <input type="checkbox" value="Kingdom Hearts Chain of Memories" checked>
+                                Kingdom Hearts Chain of Memories
+                            </label>
+                        </div>
+                    </div>
+                </div>
                 <ul>
                     <li>Conservation de la dernière partie</li>
-                    <li>Reset highscore</li>
                     <li>Faire les popups : contenu + CSS</li>
-                    <li>Personnaliser la partie</li>
-                    <li>Finir la bdd (jusqu'à CoM)</li>
-                    <li style="display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center;"><span style="font-weight: bold; font-size: 100px; text-decoration: underline; background: radial-gradient(red, green);">RESPONSIVE WEB DESIGN</span><img src="https://media.licdn.com/dms/image/C4E03AQE9z4kUilHE9Q/profile-displayphoto-shrink_200_200/0/1633587468396?e=2147483647&v=beta&t=WqYGNLB3GCiOFFALGX15-0xldRUKMEpOc5CsEeE_76o" style="width:50px; height: 50px;"></li>
+                    <li>Responsive Web Design</li>
                     <li>CSS + joli tout ça</li>
                 </ul>
             </div>
@@ -112,6 +125,16 @@
             </tbody>
         </table>
     </div>
+
+    <dialog id="settings">
+        <div class="modal-header">
+            <h2>Supprimer les données ?</h2>
+        </div>
+        <div class="buttons">
+            <button id="yes">Confirmer</button>
+            <button id="no">Annuler</button>
+        </div>
+    </dialog>
 
     <dialog id="rulesPopup">
         <div class="modal-header">

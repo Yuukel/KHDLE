@@ -72,6 +72,47 @@ dialog h2{
     margin-bottom: 0;
 }
 
+dialog#settings{
+    height: fit-content;
+    width: fit-content;
+}
+
+dialog#settings .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+dialog#settings .buttons button{
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+dialog#settings .buttons #yes{
+    background-color: #D11A2A;
+    color: white;
+    margin-bottom: 10px;
+}
+
+dialog#settings .buttons #yes:hover{
+    background-color: rgb(189, 6, 22);
+}
+
+dialog#settings .buttons #no{
+    background: none;
+}
+
+dialog#settings .buttons #no:hover{
+    background: rgb(224, 224, 224);
+}
+
 dialog#updatesPopup i{
     opacity: 0.5;
     font-size: 15px;

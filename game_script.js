@@ -8,7 +8,7 @@ document.addEventListener('keydown', disableEnterKey);
 var game = document.querySelector('.game');
 var start = document.querySelector('.start-game');
 
-import characters from './data/characters.json' with { type : 'json' };
+import charactersList from './data/characters.json' with { type : 'json' };
 
 let bestScore = localStorage.getItem('bestScore') || 0;
 if(bestScore == 0){
@@ -38,11 +38,13 @@ function setLives(){
 
 let currentScore = 0;
 let randomNumber;
+let characters;
 function startGame(){
     game.style.display = "flex";
     start.style.display = "none";
 
     setLives();
+    characters = filterCharacters();
     randomNumber = Math.floor(Math.random()*characters.length);
     while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
     // console.log(characters[randomNumber]);
@@ -442,3 +444,24 @@ function hideContent(){
 }
 
 customizeGameBtn.addEventListener('click', showContent, { once: true });
+
+const customSelect = document.getElementById('customSelect');
+const optionsContainer = customSelect.querySelector('.select-options');
+const checkboxes = optionsContainer.querySelectorAll('input[type="checkbox"]');
+
+customSelect.addEventListener('click', () => {
+    optionsContainer.style.display = optionsContainer.style.display === 'block' ? 'none' : 'block';
+});
+
+function filterCharacters(){
+    let newCharactersList;
+    const selectedOptions = Array.from(checkboxes)
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.value);
+    
+    if(selectedOptions.length > 0)
+        newCharactersList = charactersList.filter(character => selectedOptions.some(option => character.premiereApparition === option));
+    else
+        newCharactersList = charactersList;
+    return newCharactersList;
+}

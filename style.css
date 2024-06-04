@@ -23,6 +23,7 @@ body{
     background-size: contain;
 
     overflow: hidden;
+    user-select: none;
 }
 
 header{
@@ -103,8 +104,17 @@ header nav ul li button:hover span:not(.title){
     opacity: 1;
 }
 
-.start-game #start-game-btn:hover, .start-game #customize-game-btn:hover{
-    background-color: rgb(150, 150, 150);
+header .fa-trash{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    scale: 1.5;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+header .fa-trash:hover{
+    color: rgb(150, 150, 150);
 }
 
 hr{
@@ -112,6 +122,10 @@ hr{
     border: 1px solid rgb(200, 200, 200);
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.start-game #start-game-btn:hover, .start-game #customize-game-btn:hover{
+    background-color: rgb(150, 150, 150);
 }
 
 .game{
@@ -127,6 +141,11 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
+    background-color: black;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .start-game #start-game-btn{
@@ -163,6 +182,9 @@ hr{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    user-select: none;
+
+    margin-top: 20px;
 
     animation: fadeIn 0.5s forwards;
 }
@@ -171,7 +193,49 @@ hr{
     text-align: center;
 }
 
-.start-game, .legend{
+.custom-select-container {
+    width: 200px;
+    position: relative;
+}
+
+.custom-select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.custom-select .select-placeholder {
+    display: block;
+    color: #aaa;
+}
+
+.custom-select .select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 1;
+}
+
+.custom-select .select-options label {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom-select .select-options label:hover {
+    background: #f0f0f0;
+}
+
+.legend{
     width: 25%;
     background-color: black;
     border: 2px solid rgb(200, 200, 200);
