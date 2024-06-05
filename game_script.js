@@ -8,7 +8,7 @@ document.addEventListener('keydown', disableEnterKey);
 var game = document.querySelector('.game');
 var start = document.querySelector('.start-game');
 
-import charactersList from '../data/json/characters.json' with { type : 'json' };
+import charactersList from './data/json/characters.json' with { type : 'json' };
 
 let bestScore = localStorage.getItem('bestScore') || 0;
 if(bestScore == 0){
@@ -90,7 +90,7 @@ function checkGuess(event){
         
         nom.classList.add("cube","character");
         var img = document.createElement("img");
-        img.src = '../data/img/characters/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
+        img.src = './data/img/characters/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
         img.alt = characters[index].nom;
 
         var name = document.createElement('div');
@@ -339,7 +339,7 @@ guessField.addEventListener('input', () => {
                 else
                     p.textContent = character.alias;
                 const img = document.createElement('img');
-                img.src = '../data/img/characters/' + character.nom.toLowerCase().split(" ").join("") + '.png';
+                img.src = './data/img/characters/' + character.nom.toLowerCase().split(" ").join("") + '.png';
                 charItem.appendChild(img);
                 charItem.appendChild(p);
                 charItem.addEventListener('click', () => {
