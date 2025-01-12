@@ -22,7 +22,8 @@ body{
     background-image: url("https://i.redd.it/fej94dm1q2361.jpg");
     background-size: contain;
 
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     user-select: none;
 }
 
