@@ -614,7 +614,7 @@
   {
     "nom": "Pinocchio",
     "alias": "",
-    "genre": "Autre",
+    "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
     "arme" : ["Aucune"],
@@ -662,7 +662,7 @@
   {
     "nom": "Polochon",
     "alias": "",
-    "genre": "Autre",
+    "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
     "arme" : ["Aucune"],
@@ -674,7 +674,7 @@
   {
     "nom": "Sebastien",
     "alias": "",
-    "genre": "Autre",
+    "genre": "Masculin",
     "type": ["Autre"],
     "role": ["PNJ"],
     "arme" : ["Aucune"],
@@ -999,7 +999,7 @@
     "nom": "Lexaeus",
     "alias": "Aeleus",
     "genre": "Masculin",
-    "type": ["Boss", "Simili"],
+    "type": ["Humain", "Simili"],
     "role": ["Boss", "Organisation XIII"],
     "arme" : ["Ténèbres", "Autre"],
     "mondeOrigine": "Jardin Radieux",
