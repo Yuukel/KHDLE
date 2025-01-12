@@ -1006,5 +1006,17 @@
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
     "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Neo Riku",
+    "alias": "Riku Replica",
+    "genre": "Masculin",
+    "type": ["Réplique"],
+    "role": ["Boss"],
+    "arme" : ["Ténèbres", "Keyblade"],
+    "mondeOrigine": "Manoir Oblivion",
+    "premiereApparition": "Kingdom Hearts Chain of Memories",
+    "anneeDeParution": "2004",
+    "licence": "Kingdom Hearts"
   }
 ]
