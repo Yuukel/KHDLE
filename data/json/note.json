@@ -3,7 +3,7 @@
         "nom": "nom",
         "alias": "",
         "genre": ["Masculin", "Féminin", "Autre"],
-        "type": ["Humain", "Simili", "Sans-Coeur", "Autre"],
+        "type": ["Humain", "Simili", "Sans-Coeur", "Animal", "Replique", "Autre"],
         "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste", "Orga"],
         "arme" : ["Keyblade", "Nom de l'arme sinon", "Magie", "Lumière", "Ténèbres", "Autre", "Aucune"],
         "mondeOrigine": "nom du monde",
