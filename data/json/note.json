@@ -4,11 +4,12 @@
         "alias": "",
         "genre": ["Masculin", "Féminin", "Autre"],
         "type": ["Humain", "Simili", "Sans-Coeur", "Animal", "Replique", "Autre"],
-        "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste", "Orga"],
+        "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste", "Orga",
+    "Maitre de la Keyblade", "Observateur"],
         "arme" : ["Keyblade", "Nom de l'arme sinon", "Magie", "Lumière", "Ténèbres", "Autre", "Aucune"],
-        "mondeOrigine": "nom du monde",
+        "mondeOrigine": "nom du monde ou Inconnu",
         "premiereApparition": "Nom du jeu",
-        "anneeDeParution": "Année",
+        "anneeDeParution": "Année japonaise de sortie pour KH",
         "licence": "nom de la licence"
     },
     {
@@ -27,4 +28,3 @@
 // Ajouter la catégorie "couleurs" ?
 
 // Ajouter une option pour masquer l'année de parution ? (version plus difficile)
-
