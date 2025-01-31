@@ -371,6 +371,19 @@ table thead tr hr{
     margin-bottom: 20px;
 }
 
+.end-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.end-line img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    animation: fadeIn 3s ease-in;
+}
+
+
 #end-text{
     animation: fadeIn 3s ease-in;
 }

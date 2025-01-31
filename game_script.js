@@ -47,11 +47,11 @@ function startGame(){
     characters = filterCharacters();
     randomNumber = Math.floor(Math.random()*characters.length);
     while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
-    // console.log(characters[randomNumber]);
+    console.log(characters[randomNumber]);
 }
 
 let minYear = 1928;
-let maxYear = 2004;
+let maxYear = 2005;
 
 const guessBtn = document.getElementById("guess-btn");
 const guessField = document.getElementById("guess-field");
@@ -62,14 +62,19 @@ function checkGuess(event){
     if(guessField.value == "") return;
     let checkableGuess = false;
     let index;
-    for(let i = 0 ; i < characters.length ; i++){
-        if(guessField.value.toLowerCase() == characters[i].nom.toLowerCase() || guessField.value.toLowerCase() == characters[i].alias.toLowerCase()){
-            if([...table.rows].every(row => row.cells[0].id.toLowerCase() !== characters[i].nom.toLowerCase())){
+    for (let i = 0; i < characters.length; i++) {
+        let userInput = guessField.value.trim().toLowerCase().replace(/\s+/g, ' ');
+        let characterNom = characters[i].nom.trim().toLowerCase().replace(/\s+/g, ' ');
+        let characterAlias = characters[i].alias.trim().toLowerCase().replace(/\s+/g, ' ');
+
+        if (userInput === characterNom || userInput === characterAlias) {
+            if ([...table.rows].every(row => row.cells[0].id.trim().toLowerCase().replace(/\s+/g, ' ') !== characterNom)) {
                 checkableGuess = true;
                 index = i;
             }
         }
     }
+
 
     if(checkableGuess == true){
         if(characters[index] == characters[randomNumber]){
@@ -132,15 +137,17 @@ function checkGuess(event){
         type.classList.add("cube");
         isSame = true;
         if(characters[index].type.length == characters[randomNumber].type.length){
+            const sortedUserTypes = [...characters[index].type].sort();
+            const sortedRandomTypes = [...characters[randomNumber].type].sort();
             for(let i = 0 ; i < characters[index].type.length ; i++){
-                if(characters[index].type[i] != characters[randomNumber].type[i]) isSame = false;
+                if(sortedUserTypes[i] != sortedRandomTypes[i]) isSame = false;
             }
             if(isSame){
                 type.classList.add("correct");
-                summary.cells[2].textContent = characters[index].type;
+                summary.cells[2].textContent = sortedUserTypes;
                 summary.cells[2].classList.remove("empty");
                 summary.cells[2].classList.add("correct");
-            } 
+            }
         }
         if(isSame == false || characters[index].type.length != characters[randomNumber].type.length){
             let almost = false;
@@ -150,17 +157,19 @@ function checkGuess(event){
             if(almost) type.classList.add("almost");
             else type.classList.add("wrong");
         }
-        type.textContent = characters[index].type;
+        type.textContent = [...characters[index].type].sort();
 
         role.classList.add("cube");
         isSame = true;
         if(characters[index].role.length == characters[randomNumber].role.length){
+            const sortedUserRoles = [...characters[index].role].sort();
+            const sortedRandomRoles = [...characters[randomNumber].role].sort();
             for(let i = 0 ; i < characters[index].role.length ; i++){
-                if(characters[index].role[i] != characters[randomNumber].role[i]) isSame = false;
+                if(sortedUserRoles[i] != sortedRandomRoles[i]) isSame = false;
             }
             if(isSame){
                 role.classList.add("correct");
-                summary.cells[3].textContent = characters[index].role;
+                summary.cells[3].textContent = sortedUserRoles;
                 summary.cells[3].classList.remove("empty");
                 summary.cells[3].classList.add("correct");
             }
@@ -173,17 +182,19 @@ function checkGuess(event){
             if(almost) role.classList.add("almost");
             else role.classList.add("wrong");
         }
-        role.textContent = characters[index].role;
+        role.textContent = [...characters[index].role].sort();;
 
         arme.classList.add("cube");
         isSame = true;
         if(characters[index].arme.length == characters[randomNumber].arme.length){
+        const sortedUserArme = [...characters[index].arme].sort();
+            const sortedRandomArme = [...characters[randomNumber].arme].sort();
             for(let i = 0 ; i < characters[index].arme.length ; i++){
-                if(characters[index].arme[i] != characters[randomNumber].arme[i]) isSame = false;
+                if(sortedUserArme[i] != sortedRandomArme[i]) isSame = false;
             }
             if(isSame){
                 arme.classList.add("correct");
-                summary.cells[4].textContent = characters[index].arme;
+                summary.cells[4].textContent = sortedUserArme;
                 summary.cells[4].classList.remove("empty");
                 summary.cells[4].classList.add("correct");
             }
@@ -196,7 +207,7 @@ function checkGuess(event){
             if(almost) arme.classList.add("almost");
             else arme.classList.add("wrong");
         }
-        arme.textContent = characters[index].arme;
+        arme.textContent = [...characters[index].arme].sort();
 
         mondeOrigine.classList.add("cube");
         if(characters[index].mondeOrigine == characters[randomNumber].mondeOrigine){
@@ -286,60 +297,48 @@ async function addElements(tr, elements){
     }
 }
 
-function removeAccents(str) {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-
-// Création liste pour la zone de recherche
 const list = document.getElementById('list');
+
 guessField.addEventListener('input', () => {
-    const search = removeAccents(guessField.value.toLowerCase());
+    const search = normalizeString(guessField.value);
+
     list.innerHTML = "";
-    if(search){
-        // let charList = characters.filter(character => character.nom.toLowerCase().startsWith(search));
+
+    if (search) {
         let charList = characters.filter(character => {
-            return character.nom.toLowerCase().split(' ').some(nom => removeAccents(nom).startsWith(search));
+            return normalizeString(character.nom).startsWith(search);
         });
 
         charList = charList.concat(characters.filter(character => {
-            // Vérifie si le personnage correspond à la recherche
-            const matchesSearch = character.alias.toLowerCase().split(' ').some(alias => removeAccents(alias).startsWith(search));
-        
-            // Vérifie si le personnage n'est pas déjà dans charList
-            const notInCharList = !charList.some(existingChar => existingChar.nom === character.nom);
-        
+            const matchesSearch = normalizeString(character.alias).startsWith(search);
+
+            const notInCharList = !charList.some(existingChar => 
+                normalizeString(existingChar.nom) === normalizeString(character.nom)
+            );
+
             return matchesSearch && notInCharList;
         }));
 
         let addList = false;
 
-        // Tri par ordre alphabétique (tri à bulle)
-        for (let i = 0; i < charList.length; i++) {
-            for (let j = 0; j < charList.length - 1 - i; j++) {
-                const value1 = Object.
-                    values(charList[j])[0];
-                const value2 = Object.
-                    values(charList[j + 1])[0];
-                if (value1 > value2) {
-                    const temp = charList[j];
-                    charList[j] = charList[j + 1];
-                    charList[j + 1] = temp;
-                }
-            }
-        }
+        // Tri par ordre alphabétique
+        charList.sort((a, b) => a.nom.localeCompare(b.nom));
 
         charList.forEach(character => {
-            addList = [...table.rows].every(row => row.cells[0].id.toLowerCase() !== character.nom.toLowerCase());
-            if(addList){
+            addList = [...table.rows].every(row => 
+                normalizeString(row.cells[0].id) !== normalizeString(character.nom)
+            );
+
+            if (addList) {
                 const charItem = document.createElement('div');
                 charItem.classList.add('char-item');
                 const p = document.createElement('p');
-                if(character.nom.toLowerCase().split(' ').some(nom => removeAccents(nom).startsWith(search)))
-                    p.textContent = character.nom;
-                else
-                    p.textContent = character.alias;
+
+                p.textContent = normalizeString(character.nom).startsWith(search) ? character.nom : character.alias;
+
                 const img = document.createElement('img');
                 img.src = './data/img/characters/' + character.nom.toLowerCase().split(" ").join("") + '.png';
+
                 charItem.appendChild(img);
                 charItem.appendChild(p);
                 charItem.addEventListener('click', () => {
@@ -347,14 +346,25 @@ guessField.addEventListener('input', () => {
                     list.innerHTML = "";
                     list.style.display = 'none';
                 });
+
                 list.appendChild(charItem);
             }
         });
+
         list.style.display = 'block';
-    } else{
+    } else {
         list.style.display = 'none';
     }
-})
+});
+
+// Fonction de normalisation qui supprime les accents et espace superflus
+function normalizeString(str) {
+    return str
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Supprime les accents
+        .trim() // Supprime les espaces au début et à la fin
+        .replace(/\s+/g, ' ') // Remplace les espaces multiples par un seul
+        .toLowerCase(); // Met en minuscule
+}
 
 // Retirer la liste si on clique autre part
 document.addEventListener('click', (event) => {
@@ -367,6 +377,7 @@ function winRound(){
     guessField.disabled = true;
     guessBtn.disabled = true;
     document.querySelector('.end-infos').style.display = 'flex';
+    document.getElementById('end-img').src = './data/img/characters/' + characters[randomNumber].nom.toLowerCase().split(" ").join("") + '.png';
     document.getElementById('end-text').textContent = "GG, le perso à deviner était bien : " + characters[randomNumber].nom;
     document.getElementById('end-btn').textContent = "Manche suivante";
     document.getElementById('end-btn').addEventListener('click', nextRound);
@@ -383,6 +394,7 @@ function gameOver(){
     guessField.disabled = true;
     guessBtn.disabled = true;
     document.querySelector('.end-infos').style.display = 'flex';
+    document.getElementById('end-img').src = './data/img/characters/' + characters[randomNumber].nom.toLowerCase().split(" ").join("") + '.png';
     document.getElementById('end-text').textContent = "Dommage... le perso à deviner était : " + characters[randomNumber].nom;
     document.getElementById('end-btn').textContent = "Recommencer la partie";
     document.getElementById('end-btn').addEventListener('click', newGame);
