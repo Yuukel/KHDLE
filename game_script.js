@@ -47,11 +47,14 @@ function startGame(){
     characters = filterCharacters();
     randomNumber = Math.floor(Math.random()*characters.length);
     while(characters[randomNumber].nom == "") randomNumber =  Math.floor(Math.random()*characters.length);
-    console.log(characters[randomNumber]);
+    // console.log(characters[randomNumber]);
 }
 
 let minYear = 1928;
 let maxYear = 2005;
+
+let minLetter = 'A';
+let maxLetter = 'Z';
 
 const guessBtn = document.getElementById("guess-btn");
 const guessField = document.getElementById("guess-field");
@@ -75,7 +78,6 @@ function checkGuess(event){
         }
     }
 
-
     if(checkableGuess == true){
         if(characters[index] == characters[randomNumber]){
             winRound();
@@ -84,6 +86,7 @@ function checkGuess(event){
         }
         let tr = document.createElement("tr");
         let nom = document.createElement("td");
+        let ordreLex = document.createElement("td");
         let genre = document.createElement("td");
         let type = document.createElement("td");
         let role = document.createElement("td");
@@ -92,7 +95,7 @@ function checkGuess(event){
         let premiereApparition = document.createElement("td");
         let anneeDeParution = document.createElement("td");
         let licence = document.createElement("td");
-        
+
         nom.classList.add("cube","character");
         var img = document.createElement("img");
         img.src = './data/img/characters/' + characters[index].nom.toLowerCase().split(" ").join("") + '.png';
@@ -123,12 +126,54 @@ function checkGuess(event){
         nom.appendChild(name);
         nom.id = characters[index].nom;
 
+        // Année de partution
+        ordreLex.classList.add("cube");
+        var arrow;
+        var letterText;
+        if(characters[index].nom[0] < characters[randomNumber].nom[0]){
+            ordreLex.classList.add("arrow");
+
+            arrow = document.createElement("i");
+            arrow.classList.add("fa-solid","fa-arrow-up");
+            ordreLex.appendChild(arrow);
+
+            letterText = document.createElement("p");
+            letterText.textContent = characters[index].nom[0];
+            ordreLex.appendChild(letterText);
+
+            if(characters[index].nom[0] > minLetter)
+                minLetter = characters[index].nom[0];
+            summary.cells[1].textContent = minLetter + '-' + maxLetter;
+        }
+        else if(characters[index].nom[0] > characters[randomNumber].nom[0]){
+            ordreLex.classList.add("arrow");
+
+            arrow = document.createElement("i");
+            arrow.classList.add("fa-solid","fa-arrow-down");
+            ordreLex.appendChild(arrow);
+
+            letterText = document.createElement("p");
+            letterText.textContent = characters[index].nom[0];
+            ordreLex.appendChild(letterText);
+
+            if(characters[index].nom[0] < maxLetter)
+                maxLetter = characters[index].nom[0];
+            summary.cells[1].textContent = minLetter + '-' + maxLetter;
+        }
+        else{
+            ordreLex.classList.add("correct");
+            ordreLex.textContent = characters[index].nom[0];
+            summary.cells[1].textContent = characters[index].nom[0];
+            summary.cells[1].classList.remove("empty");
+            summary.cells[1].classList.add("correct");
+        }
+
         genre.classList.add("cube");
         if(characters[index].genre == characters[randomNumber].genre){
             genre.classList.add("correct");
-            summary.cells[1].textContent = characters[index].genre;
-            summary.cells[1].classList.remove("empty");
-            summary.cells[1].classList.add("correct");
+            summary.cells[2].textContent = characters[index].genre;
+            summary.cells[2].classList.remove("empty");
+            summary.cells[2].classList.add("correct");
         } else genre.classList.add("wrong");
         genre.textContent = characters[index].genre;
 
@@ -144,9 +189,9 @@ function checkGuess(event){
             }
             if(isSame){
                 type.classList.add("correct");
-                summary.cells[2].textContent = sortedUserTypes;
-                summary.cells[2].classList.remove("empty");
-                summary.cells[2].classList.add("correct");
+                summary.cells[3].textContent = sortedUserTypes;
+                summary.cells[3].classList.remove("empty");
+                summary.cells[3].classList.add("correct");
             }
         }
         if(isSame == false || characters[index].type.length != characters[randomNumber].type.length){
@@ -169,9 +214,9 @@ function checkGuess(event){
             }
             if(isSame){
                 role.classList.add("correct");
-                summary.cells[3].textContent = sortedUserRoles;
-                summary.cells[3].classList.remove("empty");
-                summary.cells[3].classList.add("correct");
+                summary.cells[4].textContent = sortedUserRoles;
+                summary.cells[4].classList.remove("empty");
+                summary.cells[4].classList.add("correct");
             }
         }
         if(isSame == false || characters[index].role.length != characters[randomNumber].role.length){
@@ -194,9 +239,9 @@ function checkGuess(event){
             }
             if(isSame){
                 arme.classList.add("correct");
-                summary.cells[4].textContent = sortedUserArme;
-                summary.cells[4].classList.remove("empty");
-                summary.cells[4].classList.add("correct");
+                summary.cells[5].textContent = sortedUserArme;
+                summary.cells[5].classList.remove("empty");
+                summary.cells[5].classList.add("correct");
             }
         }
         if(isSame == false || characters[index].arme.length != characters[randomNumber].arme.length){
@@ -212,18 +257,18 @@ function checkGuess(event){
         mondeOrigine.classList.add("cube");
         if(characters[index].mondeOrigine == characters[randomNumber].mondeOrigine){
             mondeOrigine.classList.add("correct");
-            summary.cells[5].textContent = characters[index].mondeOrigine;
-            summary.cells[5].classList.remove("empty");
-            summary.cells[5].classList.add("correct");
+            summary.cells[6].textContent = characters[index].mondeOrigine;
+            summary.cells[6].classList.remove("empty");
+            summary.cells[6].classList.add("correct");
         } else mondeOrigine.classList.add("wrong");
         mondeOrigine.textContent = characters[index].mondeOrigine;
 
         premiereApparition.classList.add("cube");
         if(characters[index].premiereApparition == characters[randomNumber].premiereApparition){
             premiereApparition.classList.add("correct");
-            summary.cells[6].textContent = characters[index].premiereApparition;
-            summary.cells[6].classList.remove("empty");
-            summary.cells[6].classList.add("correct");
+            summary.cells[7].textContent = characters[index].premiereApparition;
+            summary.cells[7].classList.remove("empty");
+            summary.cells[7].classList.add("correct");
         } else premiereApparition.classList.add("wrong");
         premiereApparition.textContent = characters[index].premiereApparition;
 
@@ -244,7 +289,7 @@ function checkGuess(event){
 
             if(characters[index].anneeDeParution > minYear)
                 minYear = characters[index].anneeDeParution;
-            summary.cells[7].textContent = minYear + '-' + maxYear;
+            summary.cells[8].textContent = minYear + '-' + maxYear;
         }
         else if(characters[index].anneeDeParution > characters[randomNumber].anneeDeParution){
             anneeDeParution.classList.add("arrow");
@@ -252,33 +297,33 @@ function checkGuess(event){
             arrow = document.createElement("i");
             arrow.classList.add("fa-solid","fa-arrow-down");
             anneeDeParution.appendChild(arrow);
-            
+
             yearText = document.createElement("p");
             yearText.textContent = characters[index].anneeDeParution;
             anneeDeParution.appendChild(yearText);
 
             if(characters[index].anneeDeParution < maxYear)
                 maxYear = characters[index].anneeDeParution;
-            summary.cells[7].textContent = minYear + '-' + maxYear;
+            summary.cells[8].textContent = minYear + '-' + maxYear;
         }
         else{
             anneeDeParution.classList.add("correct");
             anneeDeParution.textContent = characters[index].anneeDeParution;
-            summary.cells[7].textContent = characters[index].anneeDeParution;
-            summary.cells[7].classList.remove("empty");
-            summary.cells[7].classList.add("correct");
-        } 
+            summary.cells[8].textContent = characters[index].anneeDeParution;
+            summary.cells[8].classList.remove("empty");
+            summary.cells[8].classList.add("correct");
+        }
 
         licence.classList.add("cube");
         if(characters[index].licence == characters[randomNumber].licence){
             licence.classList.add("correct");
-            summary.cells[8].textContent = characters[index].licence;
-            summary.cells[8].classList.remove("empty");
-            summary.cells[8].classList.add("correct");
+            summary.cells[9].textContent = characters[index].licence;
+            summary.cells[9].classList.remove("empty");
+            summary.cells[9].classList.add("correct");
         } else licence.classList.add("wrong");
         licence.textContent = characters[index].licence;
-        
-        var elements = [nom, genre, type, role, arme, mondeOrigine, premiereApparition, anneeDeParution, licence];
+
+        var elements = [nom, ordreLex, genre, type, role, arme, mondeOrigine, premiereApparition, anneeDeParution, licence];
 
         table.insertBefore(tr, table.firstChild);
         addElements(tr, elements);
