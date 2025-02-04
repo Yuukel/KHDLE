@@ -8,7 +8,9 @@ document.addEventListener('keydown', disableEnterKey);
 var game = document.querySelector('.game');
 var start = document.querySelector('.start-game');
 
-import charactersList from './data/json/characters.json' with { type : 'json' };
+// import charactersList from './data/json/characters.json' with { type : 'json' };
+const response = await fetch('./data/json/characters.json');
+const charactersList = await response.json();
 
 let bestScore = localStorage.getItem('bestScore') || 0;
 if(bestScore == 0){
@@ -456,7 +458,7 @@ function nextRound(){
     randomNumber = Math.floor(Math.random()*characters.length);
     table.innerHTML = "";
 
-    for(let i = 1 ; i < 9 ; i++){
+    for(let i = 1 ; i < 10 ; i++){
         summary.cells[i].textContent = "";
         summary.cells[i].classList.remove("correct");
         summary.cells[i].classList.add("empty");

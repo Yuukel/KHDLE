@@ -43,7 +43,9 @@ infosBtn.addEventListener('click', () => {
     infosPopup.showModal();
 });
 
-import characters from './data/json/characters.json' with { type : 'json' }; // import des persos
+// import characters from './data/json/characters.json' with { type : 'json' }; // import des persos
+const response = await fetch('./data/json/characters.json');
+const charactersList = await response.json();
 khLicenceBtn.addEventListener('click', () => {
     removeSelected(document.getElementById('choix-licence')); // on retire l'état sélectionné à tout
     khLicenceBtn.classList.add('selected'); // on ajoute l'état sélectionné
@@ -160,7 +162,9 @@ function removeSelected(container){
     }
 }
 
-import updates from './data/json/updates.json' with { type : 'json' };
+// import updates from './data/json/updates.json' with { type : 'json' };
+const response2 = await fetch('./data/json/updates.json');
+const updates = await response2.json();
 updatesBtn.addEventListener('click', () => {
     for(let v = updates.length-1 ; v > -1 ; v--){
         var patch = document.createElement("div");
