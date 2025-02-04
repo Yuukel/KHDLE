@@ -45,11 +45,11 @@ infosBtn.addEventListener('click', () => {
 
 // import characters from './data/json/characters.json' with { type : 'json' }; // import des persos
 const response = await fetch('./data/json/characters.json');
-const charactersList = await response.json();
+const characters = await response.json();
 khLicenceBtn.addEventListener('click', () => {
     removeSelected(document.getElementById('choix-licence')); // on retire l'état sélectionné à tout
     khLicenceBtn.classList.add('selected'); // on ajoute l'état sélectionné
-    const games = ["Kingdom Hearts", "Kingdom Hearts Chain of Memories"]; // tableau des jeux
+    const games = ["Kingdom Hearts", "Kingdom Hearts Chain of Memories", "Kingdom Hearts II"]; // tableau des jeux
     let container = document.querySelector(".container");
     let buttonContainer = document.createElement('div');
     // on vide le container (le div qui contient tout ce qui n'est pas de base dans l'html)
