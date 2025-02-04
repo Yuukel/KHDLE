@@ -3,7 +3,7 @@
         "nom": "nom",
         "alias": "",
         "genre": ["Masculin", "Féminin", "Autre"],
-        "type": ["Humain", "Simili", "Sans-Coeur", "Animal", "Replique", "Autre"],
+        "type": ["Humain", "Simili", "Sans-Coeur", "Animal", "Replique", "Autre", "Jenova"],
         "role": ["Jouable", "Allié", "Ennemi", "PNJ", "Boss", "Princesse de Coeur", "Lien-D", "Invocation", "Antagoniste", "Orga",
     "Maitre de la Keyblade", "Observateur"],
         "arme" : ["Keyblade", "Nom de l'arme sinon", "Magie", "Lumière", "Ténèbres", "Autre", "Aucune"],

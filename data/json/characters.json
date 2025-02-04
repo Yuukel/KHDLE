@@ -1030,5 +1030,77 @@
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
     "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Hayner",
+    "alias": "",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Autre"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Pence",
+    "alias": "",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Olette",
+    "alias": "",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Kingdom Hearts"
+  },
+  {
+    "nom": "Seifer",
+    "alias": "",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Autre"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Raijin",
+    "alias": "",
+    "genre": "Masculin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Final Fantasy"
+  },
+  {
+    "nom": "Fujin",
+    "alias": "",
+    "genre": "Féminin",
+    "type": ["Humain"],
+    "role": ["PNJ"],
+    "arme" : ["Aucune"],
+    "mondeOrigine": "Cité du Crépuscule",
+    "premiereApparition": "Kingdom Hearts II",
+    "anneeDeParution": "2005",
+    "licence": "Final Fantasy"
   }
 ]
