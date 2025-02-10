@@ -136,7 +136,7 @@ function checkGuess(event){
             ordreLex.classList.add("arrow");
 
             arrow = document.createElement("i");
-            arrow.classList.add("fa-solid","fa-arrow-up");
+            arrow.classList.add("fa-solid","fa-arrow-right");
             ordreLex.appendChild(arrow);
 
             letterText = document.createElement("p");
@@ -151,7 +151,7 @@ function checkGuess(event){
             ordreLex.classList.add("arrow");
 
             arrow = document.createElement("i");
-            arrow.classList.add("fa-solid","fa-arrow-down");
+            arrow.classList.add("fa-solid","fa-arrow-left");
             ordreLex.appendChild(arrow);
 
             letterText = document.createElement("p");
@@ -455,6 +455,8 @@ function nextRound(){
     setLives();
     minYear = 1928;
     maxYear = 2004;
+    minLetter = 'A';
+    maxLetter = 'Z';
     randomNumber = Math.floor(Math.random()*characters.length);
     table.innerHTML = "";
 
