@@ -3,9 +3,18 @@
     "nom": "Sora",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Animal", "Sans-Coeur"],
-    "role": ["Jouable"],
-    "arme" : ["Keyblade", "Magie"],
+    "type": [
+      "Humain",
+      "Animal",
+      "Sans-Coeur"
+    ],
+    "role": [
+      "Jouable"
+    ],
+    "arme": [
+      "Keyblade",
+      "Magie"
+    ],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2002",
@@ -15,9 +24,20 @@
     "nom": "Riku",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Jouable", "Allié", "Boss", "Maitre de la Keyblade"],
-    "arme" : ["Keyblade", "Magie", "Ténèbres"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Jouable",
+      "Allié",
+      "Boss",
+      "Maitre de la Keyblade"
+    ],
+    "arme": [
+      "Keyblade",
+      "Magie",
+      "Ténèbres"
+    ],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2002",
@@ -27,9 +47,18 @@
     "nom": "Kairi",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Jouable", "Allié", "Princesse de Coeur"],
-    "arme" : ["Keyblade", "Magie"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Jouable",
+      "Allié",
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Keyblade",
+      "Magie"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2002",
@@ -39,9 +68,15 @@
     "nom": "Tidus",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2001",
@@ -51,9 +86,15 @@
     "nom": "Wakka",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2001",
@@ -63,9 +104,15 @@
     "nom": "Selphie",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Îles du Destin",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1999",
@@ -75,9 +122,16 @@
     "nom": "Ansem le chercheur des ténèbres",
     "alias": "Xehanort",
     "genre": "Masculin",
-    "type": ["Sans-Coeur"],
-    "role": ["Antagoniste", "Boss"],
-    "arme" : ["Ténèbres"],
+    "type": [
+      "Sans-Coeur"
+    ],
+    "role": [
+      "Antagoniste",
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2002",
@@ -87,9 +141,20 @@
     "nom": "Mickey Mouse",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Jouable", "Allié", "Lien-D", "Maitre de la Keyblade"],
-    "arme" : ["Keyblade", "Magie", "Lumière"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Jouable",
+      "Allié",
+      "Lien-D",
+      "Maitre de la Keyblade"
+    ],
+    "arme": [
+      "Keyblade",
+      "Magie",
+      "Lumière"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1928",
@@ -99,9 +164,16 @@
     "nom": "Donald",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Jouable", "Allié"],
-    "arme" : ["Magie"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Jouable",
+      "Allié"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1934",
@@ -111,9 +183,16 @@
     "nom": "Dingo",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Jouable", "Allié"],
-    "arme" : ["Autre"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Jouable",
+      "Allié"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1932",
@@ -123,9 +202,15 @@
     "nom": "Pluto",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1930",
@@ -135,9 +220,15 @@
     "nom": "Minnie",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Animal"],
-    "role": ["Allié"],
-    "arme": ["Lumière"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Lumière"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1928",
@@ -147,9 +238,15 @@
     "nom": "Daisy",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1940",
@@ -159,9 +256,15 @@
     "nom": "Tic & Tac",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1943",
@@ -171,9 +274,16 @@
     "nom": "Leon",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Allié"],
-    "arme": ["Magie", "Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Magie",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1999",
@@ -183,9 +293,15 @@
     "nom": "Youfie",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Allié"],
-    "arme": ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -195,9 +311,15 @@
     "nom": "Cid",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -207,9 +329,15 @@
     "nom": "Aerith",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -219,9 +347,15 @@
     "nom": "Merlin",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme": ["Magie"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1964",
@@ -231,9 +365,15 @@
     "nom": "La Bonne Fée",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["PNJ"],
-    "arme" : ["Magie"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Palais des Rêves",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1950",
@@ -243,9 +383,16 @@
     "nom": "Maléfique",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["Boss", "Antagoniste"],
-    "arme": ["Ténèbres"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss",
+      "Antagoniste"
+    ],
+    "arme": [
+      "Ténèbres"
+    ],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1959",
@@ -255,9 +402,15 @@
     "nom": "Riri Fifi Loulou",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château Disney",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1937",
@@ -267,9 +420,15 @@
     "nom": "Mog",
     "alias": "",
     "genre": "Autre",
-    "type": ["Autre"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1990",
@@ -279,9 +438,16 @@
     "nom": "Simba",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Allié","Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Allié",
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Terre des Lions",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1994",
@@ -291,9 +457,15 @@
     "nom": "Winnie",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Fôret des Rêves Bleus",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1977",
@@ -303,9 +475,15 @@
     "nom": "Alice",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur"],
-    "arme": ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1951",
@@ -315,9 +493,15 @@
     "nom": "Chat de Cheshire",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1951",
@@ -327,9 +511,15 @@
     "nom": "Reine de Coeur",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Ennemi"],
-    "arme": ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Ennemi"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1951",
@@ -339,9 +529,15 @@
     "nom": "Lapin Blanc",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays des Merveilles",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1951",
@@ -351,9 +547,17 @@
     "nom": "Hercule",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Autre"],
-    "role": ["Allié", "Boss"],
-    "arme": ["Autre"],
+    "type": [
+      "Humain",
+      "Autre"
+    ],
+    "role": [
+      "Allié",
+      "Boss"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -363,9 +567,16 @@
     "nom": "Philoctète",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal", "Autre"],
-    "role": ["PNJ"],
-    "arme": ["Aucune"],
+    "type": [
+      "Animal",
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -375,9 +586,17 @@
     "nom": "Cerbère",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal","Autre"],
-    "role": ["Boss"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Animal",
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -387,9 +606,16 @@
     "nom": "Hades",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Autre"],
-    "role": ["Boss"],
-    "arme" : ["Magie", "Autre"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Magie",
+      "Autre"
+    ],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -399,9 +625,15 @@
     "nom": "Titan de Glace",
     "alias": "",
     "genre": "Autre",
-    "type": ["Autre"],
-    "role": ["Boss"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Colisée de l'Olympe",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -411,9 +643,19 @@
     "nom": "Cloud",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Allié", "Boss", "Invocation"],
-    "arme" : ["Lumière", "Ténèbres", "Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié",
+      "Boss",
+      "Invocation"
+    ],
+    "arme": [
+      "Lumière",
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -423,9 +665,16 @@
     "nom": "Sephiroth",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Autre"],
-    "role": ["Boss"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1997",
@@ -435,9 +684,15 @@
     "nom": "Tarzan",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Allié"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Jungle Profonde",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1999",
@@ -447,9 +702,15 @@
     "nom": "Jane",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Jungle Profonde",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1999",
@@ -459,9 +720,16 @@
     "nom": "Clayton",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Boss"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jungle Profonde",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1999",
@@ -471,9 +739,15 @@
     "nom": "Aladdin",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Allié"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Agrabah",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1992",
@@ -483,9 +757,15 @@
     "nom": "Jasmine",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Agrabah",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1992",
@@ -495,9 +775,16 @@
     "nom": "Jafar",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Autre"],
-    "role": ["Boss"],
-    "arme" : ["Magie"],
+    "type": [
+      "Humain",
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Agrabah",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1992",
@@ -507,9 +794,15 @@
     "nom": "Iago",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Ennemi"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Ennemi"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Agrabah",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1992",
@@ -519,9 +812,15 @@
     "nom": "Génie",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Autre"],
-    "role": ["Invocation"],
-    "arme" : ["Magie"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Invocation"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Agrabah",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1992",
@@ -531,9 +830,15 @@
     "nom": "Monstro",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal"],
-    "role": ["Boss"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Paradis des Garnements",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1940",
@@ -543,9 +848,16 @@
     "nom": "Pinocchio",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Autre"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain",
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Paradis des Garnements",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1940",
@@ -555,9 +867,15 @@
     "nom": "Geppetto",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Paradis des Garnements",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1940",
@@ -567,9 +885,15 @@
     "nom": "Jiminy",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Paradis des Garnements",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1940",
@@ -579,9 +903,16 @@
     "nom": "Ariel",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["Allié", "Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Allié",
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Atlantica",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1989",
@@ -591,9 +922,15 @@
     "nom": "Polochon",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Atlantica",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1989",
@@ -603,9 +940,15 @@
     "nom": "Sebastien",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Atlantica",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1989",
@@ -615,9 +958,15 @@
     "nom": "Triton",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Autre"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Atlantica",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1989",
@@ -627,9 +976,15 @@
     "nom": "Ursula",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["Boss"],
-    "arme" : ["Magie"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Magie"
+    ],
     "mondeOrigine": "Atlantica",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1989",
@@ -639,9 +994,15 @@
     "nom": "Jack Skellington",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Autre"],
-    "role": ["Allié"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Allié"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Ville d'Halloween",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1993",
@@ -651,9 +1012,15 @@
     "nom": "Sally",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Ville d'Halloween",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1993",
@@ -663,9 +1030,15 @@
     "nom": "Am Stram Gram",
     "alias": "",
     "genre": "Autre",
-    "type": ["Autre"],
-    "role": ["Ennemi"],
-    "arme" : ["Autre"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Ennemi"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Ville d'Halloween",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1993",
@@ -675,9 +1048,15 @@
     "nom": "Oogie Boogie",
     "alias": "",
     "genre": "Autre",
-    "type": ["Autre"],
-    "role": ["Boss"],
-    "arme" : ["Autre"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Ville d'Halloween",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1993",
@@ -687,9 +1066,16 @@
     "nom": "Peter Pan",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Allié", "Invocation"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Allié",
+      "Invocation"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Pays Imaginaire",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1953",
@@ -699,9 +1085,15 @@
     "nom": "Clochette",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Autre"],
-    "role": ["Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Autre"
+    ],
+    "role": [
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays Imaginaire",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1953",
@@ -711,9 +1103,15 @@
     "nom": "Wendy",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Pays Imaginaire",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1953",
@@ -723,9 +1121,15 @@
     "nom": "Capitaine Crochet",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["Boss"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Pays Imaginaire",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1953",
@@ -735,9 +1139,17 @@
     "nom": "La Bête",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Autre"],
-    "role": ["Allié", "Ennemi"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain",
+      "Autre"
+    ],
+    "role": [
+      "Allié",
+      "Ennemi"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château de la Bête",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1991",
@@ -747,9 +1159,15 @@
     "nom": "Belle",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Château de la Bête",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1991",
@@ -759,9 +1177,15 @@
     "nom": "Blanche Neige",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Fôret des Nains",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1937",
@@ -771,9 +1195,16 @@
     "nom": "Cendrillon",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur", "Lien-D"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur",
+      "Lien-D"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Palais des Rêves",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1950",
@@ -783,9 +1214,15 @@
     "nom": "Aurore",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["Princesse de Coeur"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "Princesse de Coeur"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Domaine Enchanté",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1959",
@@ -795,9 +1232,15 @@
     "nom": "Darkside",
     "alias": "",
     "genre": "Autre",
-    "type": ["Sans-Coeur"],
-    "role": ["Boss"],
-    "arme" : ["Ténèbres"],
+    "type": [
+      "Sans-Coeur"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres"
+    ],
     "mondeOrigine": "Royaume des Ténèbres",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2002",
@@ -807,9 +1250,15 @@
     "nom": "Bambi",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal"],
-    "role": ["Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1942",
@@ -819,9 +1268,15 @@
     "nom": "Dumbo",
     "alias": "",
     "genre": "Autre",
-    "type": ["Animal"],
-    "role": ["Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1941",
@@ -831,9 +1286,15 @@
     "nom": "Mushu",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Animal"],
-    "role": ["Invocation"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Animal"
+    ],
+    "role": [
+      "Invocation"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Terre des Dragons",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "1998",
@@ -843,9 +1304,15 @@
     "nom": "Naminé",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Simili"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Simili"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Manoir Oblivion",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -855,9 +1322,15 @@
     "nom": "Ansem le Sage",
     "alias": "DiZ",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -867,9 +1340,20 @@
     "nom": "Marluxia",
     "alias": "Lauriam",
     "genre": "Masculin",
-    "type": ["Humain","Simili"],
-    "role": ["Antagoniste", "Organisation XIII", "Leader"],
-    "arme" : ["Keyblade","Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Antagoniste",
+      "Organisation XIII",
+      "Leader"
+    ],
+    "arme": [
+      "Keyblade",
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Cité de l'Aube",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -879,9 +1363,20 @@
     "nom": "Larxene",
     "alias": "Elrena",
     "genre": "Féminin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Keyblade", "Ténèbres", "Magie", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Keyblade",
+      "Ténèbres",
+      "Magie",
+      "Autre"
+    ],
     "mondeOrigine": "Cité de l'Aube",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -891,9 +1386,21 @@
     "nom": "Axel",
     "alias": "Lea",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII", "Allié"],
-    "arme" : ["Keyblade", "Ténèbres", "Magie", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII",
+      "Allié"
+    ],
+    "arme": [
+      "Keyblade",
+      "Ténèbres",
+      "Magie",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -903,9 +1410,19 @@
     "nom": "Vexen",
     "alias": "Even",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Magie", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Magie",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -915,9 +1432,18 @@
     "nom": "Zexion",
     "alias": "Ienzo",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -927,9 +1453,18 @@
     "nom": "Lexaeus",
     "alias": "Aeleus",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -939,9 +1474,16 @@
     "nom": "Neo Riku",
     "alias": "Riku Replica",
     "genre": "Masculin",
-    "type": ["Réplique"],
-    "role": ["Boss"],
-    "arme" : ["Ténèbres", "Keyblade"],
+    "type": [
+      "Réplique"
+    ],
+    "role": [
+      "Boss"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Keyblade"
+    ],
     "mondeOrigine": "Manoir Oblivion",
     "premiereApparition": "Kingdom Hearts Chain of Memories",
     "anneeDeParution": "2004",
@@ -951,9 +1493,21 @@
     "nom": "Roxas",
     "alias": "BHK",
     "genre": "Masculin",
-    "type": ["Simili"],
-    "role": ["Jouable", "Allié", "Boss", "Organisation XIII"],
-    "arme" : ["Keyblade", "Magie", "Lumière", "Ténèbres"],
+    "type": [
+      "Simili"
+    ],
+    "role": [
+      "Jouable",
+      "Allié",
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Keyblade",
+      "Magie",
+      "Lumière",
+      "Ténèbres"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts",
     "anneeDeParution": "2005",
@@ -963,9 +1517,19 @@
     "nom": "Xemnas",
     "alias": "Xehanort",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII", "Leader"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII",
+      "Leader"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -975,9 +1539,21 @@
     "nom": "Xigbar",
     "alias": "Braig",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Observateur", "Maitre de la Keyblade", "Boss", "Organisation XIII"],
-    "arme" : ["Keyblade", "Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Observateur",
+      "Maitre de la Keyblade",
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Keyblade",
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Cité de l'Aube",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -987,9 +1563,18 @@
     "nom": "Xaldin",
     "alias": "Dilan",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jardin Radieux",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -999,9 +1584,18 @@
     "nom": "Saïx",
     "alias": "Isa",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Jaridn Radieux",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1011,9 +1605,18 @@
     "nom": "Demyx",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1023,9 +1626,18 @@
     "nom": "Luxord",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain", "Simili"],
-    "role": ["Boss", "Organisation XIII"],
-    "arme" : ["Ténèbres", "Autre"],
+    "type": [
+      "Humain",
+      "Simili"
+    ],
+    "role": [
+      "Boss",
+      "Organisation XIII"
+    ],
+    "arme": [
+      "Ténèbres",
+      "Autre"
+    ],
     "mondeOrigine": "Inconnu",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1035,9 +1647,15 @@
     "nom": "Hayner",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1047,9 +1665,15 @@
     "nom": "Pence",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1059,9 +1683,15 @@
     "nom": "Olette",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1071,9 +1701,15 @@
     "nom": "Seifer",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Autre"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Autre"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1083,9 +1719,15 @@
     "nom": "Raijin",
     "alias": "",
     "genre": "Masculin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
@@ -1095,9 +1737,15 @@
     "nom": "Fujin",
     "alias": "",
     "genre": "Féminin",
-    "type": ["Humain"],
-    "role": ["PNJ"],
-    "arme" : ["Aucune"],
+    "type": [
+      "Humain"
+    ],
+    "role": [
+      "PNJ"
+    ],
+    "arme": [
+      "Aucune"
+    ],
     "mondeOrigine": "Cité du Crépuscule",
     "premiereApparition": "Kingdom Hearts II",
     "anneeDeParution": "2005",
